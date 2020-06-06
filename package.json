@@ -1,0 +1,32 @@
+{
+  "name": "teensway-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build-dev": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsim0809/teensway-2020.git"
+  },
+  "keywords": [],
+  "author": "Jeremy Sim <jeremy_sim@hotmail.com> (https://github.com/jsim0809)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsim0809/teensway-2020/issues"
+  },
+  "homepage": "https://github.com/jsim0809/teensway-2020#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

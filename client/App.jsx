@@ -9,10 +9,10 @@ function App() {
 
   return (
     <div>
-      <Header></Header>
-      <Carousel></Carousel>
-      <Gallery></Gallery>
-      <Footer></Footer>
+      <Header />
+      <Carousel />
+      <Gallery />
+      <Footer />
     </div>
   );
 }

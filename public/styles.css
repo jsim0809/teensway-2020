@@ -1,0 +1,21 @@
+:root {
+  --wing-luke-yellow: #FDBB2F;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--wing-luke-yellow);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+li {
+  padding: 0 1em;
+}

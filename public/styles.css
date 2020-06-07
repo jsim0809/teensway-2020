@@ -57,28 +57,10 @@ li {
 
 /* Splash carousel */
 
-.splash-0 {
+.splash {
   height: calc(100vh - var(--header-height));
   width: 100%;
-  background-color: hsl(60, 80%, 95%);
-}
-
-.splash-1 {
-  height: calc(100vh - var(--header-height));
-  width: 100%;
-  background-color: lightpink;
-}
-
-.splash-2 {
-  height: calc(100vh - var(--header-height));
-  width: 100%;
-  background-color: lightgreen;
-}
-
-.splash-3 {
-  height: calc(100vh - var(--header-height));
-  width: 100%;
-  background-color: lightskyblue;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .splash-left, .splash-right {
@@ -115,4 +97,26 @@ li {
   padding: 1rem;
   font-size: 4rem;
   letter-spacing: 0.25rem;
+}
+
+/* Gallery */
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+
+.gallery-item {
+  width: 250px;
+  margin: 60px;
+  padding: 5px;
+  border: 1px solid red;
+}
+
+.gallery-item-thumbnail {
+  width: 240px;
+  height: 240px;
+  background-color: hsla(0, 0%, 0%, 0.1);
 }

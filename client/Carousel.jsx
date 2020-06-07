@@ -7,7 +7,7 @@ function Carousel() {
     case 0:
       return (
         <section>
-          <div className="splash-0">
+          <div className="splash">
             <div className="img-0"></div>
             <div className="splash-text">
               <a className="splash-author">Ezra Li Parker</a>
@@ -21,7 +21,7 @@ function Carousel() {
     case 1:
       return (
         <section>
-          <div className="splash-1">
+          <div className="splash">
             <div className="img-1"></div>
             <div className="splash-text">
               <a className="splash-author">Susan F. Banks</a>
@@ -35,7 +35,7 @@ function Carousel() {
     case 2:
       return (
         <section>
-          <div className="splash-2">
+          <div className="splash">
             <div className="img-2"></div>
             <div className="splash-text">
               <a className="splash-author">Peter Pan</a>

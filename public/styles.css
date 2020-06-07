@@ -4,7 +4,8 @@
 }
 
 :root {
-  --wing-luke-yellow: rgba(253, 187, 47, 1);
+  --wing-luke-yellow: #fdbb2f;
+  --wing-luke-red: #8b0e04;
   --header-height: 50px
 }
 
@@ -36,7 +37,7 @@ h1 {
 .comics-font {
   font-family: 'LingLengLang', cursive;
   font-size: 2em;
-  color: #8B0E04;
+  color: var(--wing-luke-red);
 }
 
 ul {
@@ -50,8 +51,26 @@ li {
   padding: 0 1.5em;
 }
 
-.splash {
+.splash-0 {
   height: calc(100vh - var(--header-height));
   width: 100%;
-  background-color: #cccccc;
+  background-color: lightpink;
+}
+
+.splash-1 {
+  height: calc(100vh - var(--header-height));
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+}
+
+.splash-2 {
+  height: calc(100vh - var(--header-height));
+  width: 100%;
+  background-color: lightgreen;
+}
+
+.splash-3 {
+  height: calc(100vh - var(--header-height));
+  width: 100%;
+  background-color: lightskyblue;
 }

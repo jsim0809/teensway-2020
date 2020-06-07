@@ -109,14 +109,29 @@ li {
 }
 
 .gallery-item {
-  width: 250px;
+  width: 240px;
   margin: 60px;
-  padding: 5px;
-  border: 1px solid red;
 }
 
 .gallery-item-thumbnail {
   width: 240px;
   height: 240px;
   background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+.gallery-item-text {
+  padding: 1rem 0.5rem;
+}
+
+.gallery-item-title {
+  padding: 0.5rem;
+  font-weight: 900;
+}
+
+.gallery-item-author {
+  padding: 0.5rem;
+}
+
+.gallery-item-blurb {
+  padding: 0.5rem;
 }

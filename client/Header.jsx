@@ -4,13 +4,13 @@ function Header() {
 
   return (
     <header>
-      <h1>Teensway <span className="comics-font">Comics!</span></h1>
+      <h1><span className="teensway-font">TEENSWAY</span> <span className="comics-font">Comics!</span></h1>
       <nav>
         <ul>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Teensway</li>
-          <li>Wing Luke Museum</li>
+          <li>ABOUT</li>
+          <li>CONTACT</li>
+          <li>TEENSWAY</li>
+          <li>WING LUKE MUSEUM</li>
         </ul>
       </nav>
     </header>

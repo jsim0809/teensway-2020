@@ -4,7 +4,7 @@ function Header() {
 
   return (
     <header>
-      <h1>Teensway Comics Gallery</h1>
+      <h1>Teensway <span className="comics-font">Comics!</span></h1>
       <nav>
         <ul>
           <li>About</li>

@@ -1,3 +1,5 @@
+/* Variables and custom font face */
+
 @font-face {
   font-family: 'LingLengLang';
   src: url('./fonts/linglenglang-webfont.woff2') format('woff2'), url('./fonts/linglenglang-webfont.woff') format('woff');
@@ -13,6 +15,8 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+/* Header, including nav bar */
+
 header {
   height: var(--header-height);
   display: flex;
@@ -23,20 +27,20 @@ header {
 }
 
 h1 {
-  padding: 1.5em;
+  padding: 1.5rem;
   display: flex;
   flex-direction: row;
 }
 
 .teensway-font {
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 900;
   letter-spacing: 1px;
 }
 
 .comics-font {
   font-family: 'LingLengLang', cursive;
-  font-size: 2em;
+  font-size: 2rem;
   color: var(--wing-luke-red);
 }
 
@@ -44,23 +48,25 @@ ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 li {
-  padding: 0 1.5em;
+  padding: 0 1.5rem;
 }
+
+/* Splash carousel */
 
 .splash-0 {
   height: calc(100vh - var(--header-height));
   width: 100%;
-  background-color: lightpink;
+  background-color: lightgoldenrodyellow;
 }
 
 .splash-1 {
   height: calc(100vh - var(--header-height));
   width: 100%;
-  background-color: lightgoldenrodyellow;
+  background-color: lightpink;
 }
 
 .splash-2 {
@@ -73,4 +79,40 @@ li {
   height: calc(100vh - var(--header-height));
   width: 100%;
   background-color: lightskyblue;
+}
+
+.splash-left, .splash-right {
+  margin: 2rem;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -100%);
+}
+
+.splash-right {
+  right: 0;
+}
+
+.splash-text {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: hsla(0, 0%, 0%, 0.2);
+  border-radius: 0.2rem;
+}
+
+.splash-author {
+  padding: 1rem;
+  font-size: 3rem;
+  letter-spacing: 0.25rem;
+}
+
+.splash-title {
+  padding: 1rem;
+  font-size: 5rem;
+  letter-spacing: 0.25rem;
 }

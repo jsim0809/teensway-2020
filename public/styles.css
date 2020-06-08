@@ -17,10 +17,9 @@ body {
 
 /* Header, including nav bar */
 
-header {
+header, .footer-text {
   height: var(--header-height);
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: var(--wing-luke-yellow);
@@ -134,4 +133,25 @@ li {
 
 .gallery-item-blurb {
   padding: 0.5rem;
+}
+
+/* Footer */
+
+.footer-text {
+  height: 2rem;
+  font-size: 0.75rem;
+  padding: 0 1rem;
+}
+
+.back-to-top {
+  display: block;
+  text-align: right;
+}
+
+.back-to-top-arrow {
+  display: inline-block;
+  transform: rotate(90deg);
+  font-size: 3rem;
+  margin: 1.5rem 3rem;
+  color: hsla(0, 0%, 0%, 0.4);
 }

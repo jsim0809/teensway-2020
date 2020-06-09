@@ -10,8 +10,8 @@ function Carousel() {
           <div className="splash">
             <div className="img-0"></div>
             <div className="splash-text">
-              <a className="splash-author">Ezra Li Parker</a>
-              <a className="splash-title">ALL EAT CANDY</a>
+              <a className="splash-author">Author</a>
+              <a className="splash-title">TITLE</a>
             </div>
             <a className="splash-left">&#10094;</a>
             <a className="splash-right">&#10095;</a>
@@ -24,8 +24,8 @@ function Carousel() {
           <div className="splash">
             <div className="img-1"></div>
             <div className="splash-text">
-              <a className="splash-author">Susan F. Banks</a>
-              <a className="splash-title">DOG EAT DOG</a>
+              <a className="splash-author">Author</a>
+              <a className="splash-title">TITLE</a>
             </div>
             <a className="splash-left">&#10094;</a>
             <a className="splash-right">&#10095;</a>
@@ -38,8 +38,8 @@ function Carousel() {
           <div className="splash">
             <div className="img-2"></div>
             <div className="splash-text">
-              <a className="splash-author">Peter Pan</a>
-              <a className="splash-title">GODS EAT GODS</a>
+              <a className="splash-author">Author</a>
+              <a className="splash-title">TITLE</a>
             </div>
             <a className="splash-left">&#10094;</a>
             <a className="splash-right">&#10095;</a>

@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import students from '../public/database/students.js';
+import React from 'react';
 
-function Gallery() {
+function Gallery({ students }) {
 
   return (
     <section className="gallery">

@@ -1,5 +1,6 @@
 module.exports = [
   {
+    id: 1,
     name: 'Christian Basilio',
     avatar: '',
     bio: '',
@@ -9,6 +10,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 2,
     name: 'Allen Brennan',
     avatar: '',
     bio: '',
@@ -18,6 +20,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 3,
     name: 'Ryan Erfe-Johnson',
     avatar: '',
     bio: '',
@@ -27,6 +30,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 4,
     name: 'Kazimir Gier',
     avatar: '',
     bio: '',
@@ -36,6 +40,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 5,
     name: 'Nadjia Gier',
     avatar: '',
     bio: '',
@@ -45,6 +50,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 6,
     name: 'Naomi Epp Hamilton',
     avatar: '',
     bio: '',
@@ -54,6 +60,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 7,
     name: 'Emma Hearn',
     avatar: '',
     bio: '',
@@ -63,6 +70,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 8,
     name: 'Calvin Hou',
     avatar: '',
     bio: '',
@@ -72,6 +80,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 9,
     name: 'Laela Johnson',
     avatar: '',
     bio: '',
@@ -81,6 +90,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 10,
     name: 'Olivia Kang',
     avatar: '',
     bio: '',
@@ -90,6 +100,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 11,
     name: "Ronan Kang-O'Higgins",
     avatar: '',
     bio: '',
@@ -99,6 +110,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 12,
     name: 'Calleigh Lee',
     avatar: '',
     bio: '',
@@ -108,6 +120,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 13,
     name: 'Violet Pody',
     avatar: '',
     bio: '',
@@ -117,6 +130,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 14,
     name: 'Ben Stieger',
     avatar: '',
     bio: '',
@@ -126,6 +140,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 15,
     name: 'Zachary Wheeler',
     avatar: '',
     bio: '',
@@ -135,6 +150,7 @@ module.exports = [
     blurb: '',
   },
   {
+    id: 16,
     name: 'Marigold Wong',
     avatar: '',
     bio: '',

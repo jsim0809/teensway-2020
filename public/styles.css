@@ -155,3 +155,47 @@ li {
   margin: 1.5rem 3rem;
   color: hsla(0, 0%, 0%, 0.4);
 }
+
+/* Comic section */
+
+.comic-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  color: #555555;
+}
+
+.comic-arrow-bar {
+  margin-left: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.comic-random {
+  padding: 0 30px;
+  font-size: 1.3rem;
+}
+
+.comic-arrow {
+  padding: 0 10px;
+  font-size: 3rem;
+}
+
+.comic-max-arrow {
+  padding: 0 10px 9px 10px;
+  font-size: 3.8rem;
+}
+
+.comic {
+  padding: 20px;
+  height: 600px;
+  width: 800px;
+  background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+.comic-dot-bar {
+  padding: 20px;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+}

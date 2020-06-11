@@ -146,6 +146,7 @@ li {
 .back-to-top {
   display: block;
   text-align: right;
+  background-color: pink;
 }
 
 .back-to-top-arrow {
@@ -198,4 +199,58 @@ li {
   padding: 20px;
   font-size: 1.3rem;
   letter-spacing: 3px;
+}
+
+/* Bio section */
+
+.bio {
+  padding: 2rem;
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bio-blurb {
+  padding: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-blurb h2 {
+  padding: 1rem;
+  margin-top: 4rem;
+  font-size: 3.5rem;
+  letter-spacing: 0.25rem;
+}
+
+.bio-blurb p {
+  padding: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.bio-author {
+  padding: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio-author-avatar {
+  width: 240px;
+  height: 240px;
+  margin: 10px;
+  background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+.bio-author h3 {
+  padding: 5px 10px;
+  width: 220px;
+  font-size: 2rem;
+}
+
+.bio-author p {
+  padding: 5px 10px;
+  width: 220px;
+  line-height: 1.25rem;
 }

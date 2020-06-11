@@ -9,7 +9,7 @@ import Footer from './Footer.jsx';
 import students from '../public/database/students.js';
 
 function App() {
-  const [page, setPage] = useState('1');
+  const [page, setPage] = useState('home');
 
   if (page === 'home') {
     return (

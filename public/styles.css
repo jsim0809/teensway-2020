@@ -15,70 +15,74 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-/* Header, including nav bar */
+/* Main page header */
 
-header, .footer-text {
-  height: var(--header-height);
+.big-header {
+  height: 20rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  background-color: var(--wing-luke-yellow);
 }
 
-h1 {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: row;
+.big-header {
+  padding: 5rem 0 2.5rem 0;
 }
 
-.teensway-font {
-  font-size: 1rem;
+.big-header .teensway-font {
+  padding-right: 15rem;
+  font-size: 3.5rem;
   font-weight: 900;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
+  transform: translate(0, 20px);
 }
 
-.comics-font {
+.big-header .comics-font {
+  padding-left: 15rem;
   font-family: 'LingLengLang', cursive;
-  font-size: 2rem;
+  font-size: 12rem;
   color: var(--wing-luke-red);
 }
 
-ul {
+.big-header ul {
+  margintop: 2.5rem;
   display: flex;
-  flex-direction: row;
-  list-style: none;
-  padding: 0.5rem;
+  border-top: var(--wing-luke-yellow) 3px solid;
+  border-bottom: var(--wing-luke-yellow) 3px solid;
 }
 
-li {
-  padding: 0 1.5rem;
+.big-header ul li {
+  padding: 0.5rem 1.5rem;
+
 }
 
 /* Splash carousel */
 
 .splash {
-  height: calc(100vh - var(--header-height));
-  width: 100%;
-  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+  height: 400px;
+  width: 800px;
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.splash-arrows {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .splash-left, .splash-right {
   margin: 2rem;
-  font-size: 3rem;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -100%);
-}
-
-.splash-right {
-  right: 0;
 }
 
 .splash-text {
   right: 0;
   bottom: 0;
+  margin: 2rem;
   position: absolute;
-  margin: 4rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -87,14 +91,14 @@ li {
 }
 
 .splash-author {
-  padding: 1rem;
-  font-size: 2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
   letter-spacing: 0.25rem;
 }
 
 .splash-title {
-  padding: 1rem;
-  font-size: 4rem;
+  padding: 0.5rem;
+  font-size: 2rem;
   letter-spacing: 0.25rem;
 }
 
@@ -146,7 +150,6 @@ li {
 .back-to-top {
   display: block;
   text-align: right;
-  background-color: pink;
 }
 
 .back-to-top-arrow {
@@ -155,6 +158,45 @@ li {
   font-size: 3rem;
   margin: 1.5rem 3rem;
   color: hsla(0, 0%, 0%, 0.4);
+}
+
+/* Small header, including nav bar */
+
+.small-header, .footer-text {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--wing-luke-yellow);
+}
+
+.small-header h1 {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.small-header .teensway-font {
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.small-header .comics-font {
+  font-family: 'LingLengLang', cursive;
+  font-size: 2rem;
+  color: var(--wing-luke-red);
+}
+
+.small-header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.small-header ul li {
+  padding: 0 1.5rem;
 }
 
 /* Comic section */

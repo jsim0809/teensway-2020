@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Header() {
+function Header({ handleHomeClick }) {
 
   return (
-    <header>
-      <h1><span className="teensway-font">TEENSWAY</span> <span className="comics-font">Comics!</span></h1>
+    <header className="small-header">
+      <h1 onClick={handleHomeClick}><span className="teensway-font">TEENSWAY</span> <span className="comics-font">Comics!</span></h1>
       <nav>
         <ul>
           <li>ABOUT</li>

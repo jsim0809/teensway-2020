@@ -19,6 +19,8 @@ class App extends React.Component {
       page: 'home'
     }
     this.handleHomeClick = this.handleHomeClick.bind(this);
+    this.handleAboutClick = this.handleAboutClick.bind(this);
+    this.handleContactClick = this.handleContactClick.bind(this);
   }
 
   handleHomeClick() {
@@ -27,28 +29,63 @@ class App extends React.Component {
     });
   }
 
+  handleAboutClick() {
+    this.setState({
+      page: 'about'
+    });
+  }
+
+  handleContactClick() {
+    this.setState({
+      page: 'contact'
+    });
+  }
+
   render() {
     const { page } = this.state;
-    if (page === 'home') {
-      return (
-        <div>
-          <BigHeader handleHomeClick={this.handleHomeClick}/>
-          <Carousel />
-          <Gallery students={students}/>
-          <Footer />
-        </div>
-      );
-    } else {
-      return (
-        <div>
-          <Header />
-          <Comic student={page} />
-          <Bio student={page} />
-          <Footer />
-        </div>
-      );
+    switch (page) {
+      case 'home':
+        return (
+          <div>
+            <BigHeader
+              handleHomeClick={this.handleHomeClick}
+              handleAboutClick={this.handleAboutClick}
+              handleContactClick={this.handleContactClick}
+              />
+            <Carousel />
+            <Gallery students={students}/>
+            <Footer />
+          </div>
+        );
+      case 'about':
+        return (
+          <div>
+            <Header />
+            <Comic student={page} />
+            <Bio student={page} />
+            <Footer />
+          </div>
+        );
+      case 'contact':
+        return (
+          <div>
+            <Header />
+            <Comic student={page} />
+            <Bio student={page} />
+            <Footer />
+          </div>
+        );
+      default:
+        return (
+          <div>
+            <Header />
+            <Comic student={page} />
+            <Bio student={page} />
+            <Footer />
+          </div>
+        );
+      }
     }
-  }
 }
 
 export default App;

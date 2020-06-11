@@ -1,6 +1,14 @@
 import React from 'react';
 
-function Carousel() {
+class Carousel extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentImg: 0
+    }
+  }
+
+  render() {
     return (
       <section>
         <div className="splash">
@@ -16,6 +24,7 @@ function Carousel() {
         </div>
       </section>
     );
+  }
 }
 
 export default Carousel;

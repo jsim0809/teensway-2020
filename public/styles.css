@@ -28,6 +28,10 @@ body {
   padding: 5rem 0 2.5rem 0;
 }
 
+.big-header h1 {
+  cursor: pointer;
+}
+
 .big-header .teensway-font {
   padding-right: 15rem;
   font-size: 3.5rem;
@@ -52,8 +56,14 @@ body {
 
 .big-header ul li {
   padding: 0.5rem 1.5rem;
-
+  cursor: pointer;
 }
+
+.big-header ul li a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 
 /* Splash carousel */
 
@@ -91,13 +101,13 @@ body {
 }
 
 .splash-author {
-  padding: 0.5rem;
+  padding: 0.75rem 0.75rem 0 0.75rem;
   font-size: 1rem;
   letter-spacing: 0.25rem;
 }
 
 .splash-title {
-  padding: 0.5rem;
+  padding: 0.75rem;
   font-size: 2rem;
   letter-spacing: 0.25rem;
 }

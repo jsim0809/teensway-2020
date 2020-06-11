@@ -9,14 +9,13 @@ import About from './About.jsx';
 import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
 
-
 import students from '../public/database/students.js';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      page: 'home'
+      page: 'home',
     }
     this.handleHomeClick = this.handleHomeClick.bind(this);
     this.handleAboutClick = this.handleAboutClick.bind(this);
@@ -25,19 +24,19 @@ class App extends React.Component {
 
   handleHomeClick() {
     this.setState({
-      page: 'home'
+      page: 'home',
     });
   }
 
   handleAboutClick() {
     this.setState({
-      page: 'about'
+      page: 'about',
     });
   }
 
   handleContactClick() {
     this.setState({
-      page: 'contact'
+      page: 'contact',
     });
   }
 

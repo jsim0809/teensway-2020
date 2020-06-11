@@ -1,6 +1,6 @@
 module.exports = [
   {
-    id: 1,
+    id: 0,
     name: 'Christian Basilio',
     avatar: '',
     bio: '',
@@ -10,7 +10,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 2,
+    id: 1,
     name: 'Allen Brennan',
     avatar: '',
     bio: '',
@@ -20,7 +20,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 3,
+    id: 2,
     name: 'Ryan Erfe-Johnson',
     avatar: '',
     bio: '',
@@ -30,7 +30,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 4,
+    id: 3,
     name: 'Kazimir Gier',
     avatar: '',
     bio: '',
@@ -40,7 +40,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 5,
+    id: 4,
     name: 'Nadjia Gier',
     avatar: '',
     bio: '',
@@ -50,7 +50,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 6,
+    id: 5,
     name: 'Naomi Epp Hamilton',
     avatar: '',
     bio: '',
@@ -60,7 +60,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 7,
+    id: 6,
     name: 'Emma Hearn',
     avatar: '',
     bio: '',
@@ -70,7 +70,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 8,
+    id: 7,
     name: 'Calvin Hou',
     avatar: '',
     bio: '',
@@ -80,7 +80,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 9,
+    id: 8,
     name: 'Laela Johnson',
     avatar: '',
     bio: '',
@@ -90,7 +90,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 10,
+    id: 9,
     name: 'Olivia Kang',
     avatar: '',
     bio: '',
@@ -100,7 +100,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 11,
+    id: 10,
     name: "Ronan Kang-O'Higgins",
     avatar: '',
     bio: '',
@@ -110,7 +110,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 12,
+    id: 11,
     name: 'Calleigh Lee',
     avatar: '',
     bio: '',
@@ -120,7 +120,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 13,
+    id: 12,
     name: 'Violet Pody',
     avatar: '',
     bio: '',
@@ -130,7 +130,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 14,
+    id: 13,
     name: 'Ben Stieger',
     avatar: '',
     bio: '',
@@ -140,7 +140,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 15,
+    id: 14,
     name: 'Zachary Wheeler',
     avatar: '',
     bio: '',
@@ -150,7 +150,7 @@ module.exports = [
     blurb: '',
   },
   {
-    id: 16,
+    id: 15,
     name: 'Marigold Wong',
     avatar: '',
     bio: '',

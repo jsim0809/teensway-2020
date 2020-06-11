@@ -8,27 +8,35 @@ import Footer from './Footer.jsx';
 
 import students from '../public/database/students.js';
 
-function App() {
-  const [page, setPage] = useState('home');
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      page: 'home'
+    }
+  }
 
-  if (page === 'home') {
-    return (
-      <div>
-        <Header />
-        <Carousel />
-        <Gallery students={students}/>
-        <Footer />
-      </div>
-    );
-  } else {
-    return (
-      <div>
-        <Header />
-        <Comic student={page} />
-        <Bio student={page} />
-        <Footer />
-      </div>
-    );
+  render() {
+    const { page } = this.state;
+    if (page === 'home') {
+      return (
+        <div>
+          <Header />
+          <Carousel />
+          <Gallery students={students}/>
+          <Footer />
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          <Header />
+          <Comic student={page} />
+          <Bio student={page} />
+          <Footer />
+        </div>
+      );
+    }
   }
 }
 

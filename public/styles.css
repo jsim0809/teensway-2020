@@ -74,6 +74,55 @@ i {
   text-decoration: inherit;
 }
 
+/* Small header, including nav bar */
+
+.small-header, .footer-text {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--wing-luke-yellow);
+}
+
+.small-header h1 {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.small-header .teensway-font {
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.small-header .comics-font {
+  font-family: 'LingLengLang', cursive;
+  font-size: 2rem;
+  color: var(--wing-luke-red);
+}
+
+.small-header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.small-header ul li {
+  padding: 0 1.5rem;
+  cursor: pointer;
+}
+
+.small-header ul li:hover {
+  opacity: 0.4;
+}
+
+.small-header ul li a {
+  color: inherit;
+  text-decoration: inherit;
+}
 
 /* Splash carousel */
 
@@ -196,6 +245,7 @@ i {
 }
 
 .back-to-top-arrow {
+  cursor: pointer;
   display: inline-block;
   position: absolute;
   right: 0;
@@ -204,45 +254,6 @@ i {
   font-size: 3rem;
   margin: 2.5rem;
   color: hsla(0, 0%, 0%, 0.4);
-}
-
-/* Small header, including nav bar */
-
-.small-header, .footer-text {
-  height: var(--header-height);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--wing-luke-yellow);
-}
-
-.small-header h1 {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: row;
-}
-
-.small-header .teensway-font {
-  font-size: 1rem;
-  font-weight: 900;
-  letter-spacing: 1px;
-}
-
-.small-header .comics-font {
-  font-family: 'LingLengLang', cursive;
-  font-size: 2rem;
-  color: var(--wing-luke-red);
-}
-
-.small-header ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  padding: 0.5rem;
-}
-
-.small-header ul li {
-  padding: 0 1.5rem;
 }
 
 /* Comic section */

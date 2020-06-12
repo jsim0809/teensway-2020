@@ -1,16 +1,16 @@
 import React from 'react';
 
-function Header({ handleHomeClick }) {
+function Header({ handleHomeClick, handleAboutClick, handleContactClick }) {
 
   return (
     <header className="small-header">
       <h1 onClick={handleHomeClick}><span className="teensway-font">TEENSWAY</span> <span className="comics-font">Comics!</span></h1>
       <nav>
         <ul>
-          <li>ABOUT</li>
-          <li>CONTACT</li>
-          <li>TEENSWAY</li>
-          <li>WING LUKE MUSEUM</li>
+          <li onClick={handleAboutClick}>ABOUT</li>
+          <li onClick={handleContactClick}>CONTACT</li>
+          <li><a href="https://www.wingluke.org/single-exhibit/?mep_event=3866" target="_blank">TEENSWAY <i className="fas fa-external-link-alt"></i></a></li>
+          <li><a href="https://www.wingluke.org/" target="_blank">WING LUKE MUSEUM <i className="fas fa-external-link-alt"></i></a></li>
         </ul>
       </nav>
     </header>

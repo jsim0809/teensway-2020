@@ -43,6 +43,8 @@ class App extends React.Component {
   }
 
   handleComicClick(num) {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     this.setState({
       page: num,
     })
@@ -85,7 +87,11 @@ class App extends React.Component {
       default:
         return (
           <div>
-            <Header />
+            <Header 
+              handleHomeClick={this.handleHomeClick}
+              handleAboutClick={this.handleAboutClick}
+              handleContactClick={this.handleContactClick}
+            />
             <Comic student={page} />
             <Bio student={page} />
             <Footer />

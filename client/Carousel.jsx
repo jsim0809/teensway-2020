@@ -15,17 +15,12 @@ class Carousel extends React.Component {
   }
 
   componentDidMount() {
-    // Initialize an ordered list of students' ids
+    // Initialize a random list of students' ids using inside-out Fisher-Yates shuffle
     const ids = []
     for (let i = 0; i < students.length; i += 1) {
-      ids[i] = i;
-    }
-    // Randomize them
-    for (let i = students.length - 1; i > 0; i -= 1) {
-      const temp = ids[i];
       const swapIndex = Math.floor(Math.random() * (i + 1));
       ids[i] = ids[swapIndex];
-      ids[swapIndex] = temp;
+      ids[swapIndex] = i;
     }
     this.setState({
       imgOrder: ids,

@@ -15,6 +15,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+i {
+  opacity: 0.4;
+}
+
 /* Main page header */
 
 .big-header {
@@ -86,6 +90,7 @@ body {
 
 .splash-left, .splash-right {
   margin: 2rem;
+  cursor: pointer;
 }
 
 .splash-text {

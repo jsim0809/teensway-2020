@@ -158,5 +158,5 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
-  },
+  }
 ];

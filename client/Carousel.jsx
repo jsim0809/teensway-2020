@@ -20,7 +20,6 @@ class Carousel extends React.Component {
     for (let i = 0; i < students.length; i += 1) {
       ids[i] = i;
     }
-    console.log(ids);
     // Randomize them
     for (let i = students.length - 1; i > 0; i -= 1) {
       const temp = ids[i];
@@ -28,7 +27,6 @@ class Carousel extends React.Component {
       ids[i] = ids[swapIndex];
       ids[swapIndex] = temp;
     }
-    console.log(ids);
     this.setState({
       imgOrder: ids,
     })
@@ -62,13 +60,14 @@ class Carousel extends React.Component {
 
   render() {
     const { imgOrder, currentIndex } = this.state;
+    const { handleComicClick } = this.props;
     return (
       <section>
         <div className="splash">
           <div className="img-0"></div>
           <div className="splash-text">
-            <a className="splash-author">{ students[imgOrder[currentIndex]].name }</a>
-            <a className="splash-title">{ students[imgOrder[currentIndex]].workTitle.toUpperCase() }</a>
+            <a onClick={() => handleComicClick(imgOrder[currentIndex])} className="splash-author">{ students[imgOrder[currentIndex]].name }</a>
+            <a onClick={() => handleComicClick(imgOrder[currentIndex])} className="splash-title">{ students[imgOrder[currentIndex]].workTitle.toUpperCase() }</a>
           </div>
           <div className="splash-arrows">
             <a onClick={this.handleLeftArrowClick} className="splash-left">&#10094;</a>

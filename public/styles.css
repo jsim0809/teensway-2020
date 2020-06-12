@@ -6,9 +6,11 @@
 }
 
 :root {
-  --wing-luke-yellow: #fdbb2f;
-  --wing-luke-red: #8b0e04;
-  --header-height: 50px
+  --wing-luke-yellow: hsl(41, 98%, 59%);
+  --wing-luke-red: hsl(4, 94%, 28%);
+  --wing-luke-light-yellow: hsla(41, 98%, 59%, 0.4);
+  --header-height: 50px;
+  --footer-height: 2rem;
 }
 
 body {
@@ -63,6 +65,10 @@ i {
   cursor: pointer;
 }
 
+.big-header ul li:hover {
+  opacity: 0.4;
+}
+
 .big-header ul li a {
   color: inherit;
   text-decoration: inherit;
@@ -106,15 +112,25 @@ i {
 }
 
 .splash-author {
+  cursor: pointer;
   padding: 0.75rem 0.75rem 0 0.75rem;
   font-size: 1rem;
   letter-spacing: 0.25rem;
 }
 
 .splash-title {
+  cursor: pointer;
   padding: 0.75rem;
   font-size: 2rem;
   letter-spacing: 0.25rem;
+}
+
+.splash-author:hover {
+  opacity: 0.4;
+}
+
+.splash-title:hover {
+  opacity: 0.4;
 }
 
 /* Gallery */
@@ -132,6 +148,7 @@ i {
 }
 
 .gallery-item-thumbnail {
+  cursor: pointer;
   width: 240px;
   height: 240px;
   background-color: hsla(0, 0%, 0%, 0.1);
@@ -142,12 +159,22 @@ i {
 }
 
 .gallery-item-title {
+  cursor: pointer;
   padding: 0.5rem;
   font-weight: 900;
 }
 
 .gallery-item-author {
+  cursor: pointer;
   padding: 0.5rem;
+}
+
+.gallery-item-title:hover {
+  opacity: 0.4;
+}
+
+.gallery-item-author:hover {
+  opacity: 0.4;
 }
 
 .gallery-item-blurb {
@@ -157,9 +184,10 @@ i {
 /* Footer */
 
 .footer-text {
-  height: 2rem;
+  height: var(--footer-height);
   font-size: 0.75rem;
   padding: 0 1rem;
+  position: relative;
 }
 
 .back-to-top {
@@ -169,9 +197,12 @@ i {
 
 .back-to-top-arrow {
   display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: var(--footer-height);
   transform: rotate(90deg);
   font-size: 3rem;
-  margin: 1.5rem 3rem;
+  margin: 2.5rem;
   color: hsla(0, 0%, 0%, 0.4);
 }
 
@@ -231,18 +262,33 @@ i {
 }
 
 .comic-random {
+  cursor: pointer;
   padding: 0 30px;
   font-size: 1.3rem;
 }
 
 .comic-arrow {
+  cursor: pointer;
   padding: 0 10px;
   font-size: 3rem;
 }
 
 .comic-max-arrow {
+  cursor: pointer;
   padding: 0 10px 9px 10px;
   font-size: 3.8rem;
+}
+
+.comic-random:hover {
+  opacity: 0.4;
+}
+
+.comic-arrow:hover {
+  opacity: 0.4;
+}
+
+.comic-max-arrow:hover {
+  opacity: 0.4;
 }
 
 .comic {
@@ -255,14 +301,22 @@ i {
 .comic-dot-bar {
   padding: 20px;
   font-size: 1.3rem;
-  letter-spacing: 3px;
+  letter-spacing: 10px;
+}
+
+.comic-dot-red {
+  color: var(--wing-luke-red);
+}
+
+.comic-dot-gray {
+  opacity: 0.4;
 }
 
 /* Bio section */
 
 .bio {
   padding: 2rem;
-  background-color: pink;
+  background-color: var(--wing-luke-light-yellow);
   display: flex;
   justify-content: space-around;
 }

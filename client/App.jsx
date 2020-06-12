@@ -17,10 +17,11 @@ class App extends React.Component {
     this.state = {
       page: 'home',
     }
-    
+
     this.handleHomeClick = this.handleHomeClick.bind(this);
     this.handleAboutClick = this.handleAboutClick.bind(this);
     this.handleContactClick = this.handleContactClick.bind(this);
+    this.handleComicClick = this.handleComicClick.bind(this);
   }
 
   handleHomeClick() {
@@ -41,6 +42,12 @@ class App extends React.Component {
     });
   }
 
+  handleComicClick(num) {
+    this.setState({
+      page: num,
+    })
+  }
+
   render() {
     const { page } = this.state;
     switch (page) {
@@ -51,9 +58,9 @@ class App extends React.Component {
               handleHomeClick={this.handleHomeClick}
               handleAboutClick={this.handleAboutClick}
               handleContactClick={this.handleContactClick}
-              />
-            <Carousel />
-            <Gallery students={students}/>
+            />
+            <Carousel handleComicClick={this.handleComicClick} />
+            <Gallery students={students} handleComicClick={this.handleComicClick} />
             <Footer />
           </div>
         );
@@ -84,8 +91,8 @@ class App extends React.Component {
             <Footer />
           </div>
         );
-      }
     }
+  }
 }
 
 export default App;

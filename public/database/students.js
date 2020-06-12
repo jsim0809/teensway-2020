@@ -8,6 +8,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: ['hello', 'goodbye', 'foo', 'bar'],
   },
   {
     id: 1,
@@ -18,6 +19,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 2,
@@ -28,6 +30,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 3,
@@ -38,6 +41,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 4,
@@ -48,6 +52,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 5,
@@ -58,6 +63,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 6,
@@ -68,6 +74,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 7,
@@ -78,6 +85,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 8,
@@ -88,6 +96,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 9,
@@ -98,6 +107,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 10,
@@ -108,6 +118,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 11,
@@ -118,6 +129,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 12,
@@ -128,6 +140,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 13,
@@ -138,6 +151,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 14,
@@ -148,6 +162,7 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   },
   {
     id: 15,
@@ -158,5 +173,6 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
+    comicPages: [],
   }
 ];

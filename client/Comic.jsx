@@ -1,7 +1,6 @@
 import React from 'react';
 
 import students from '../public/database/students.js';
-import { render } from 'react-dom';
 
 class Comic extends React.Component {
   constructor(props) {

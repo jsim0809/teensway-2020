@@ -15,15 +15,17 @@ class Carousel extends React.Component {
     // Initialize an ordered list of students' ids
     const ids = []
     for (let i = 0; i < students.length; i += 1) {
-      ids.push(i);
+      ids[i] = i;
     }
     // Randomize them
-    const randomIds = [];
-    while (ids.length) {
-      randomIds.push(ids[Math.floor(Math.random() * ids.length)]);
+    for (let i = students.length; i > 0; i -= 1) {
+      const temp = ids[i];
+      const swapIndex = Math.floor(Math.random() * (i + 1));
+      ids[i] = ids[swapIndex];
+      ids[swapIndex] = temp;
     }
     this.setState({
-      imgOrder: randomIds,
+      imgOrder: ids,
     })
   }
 

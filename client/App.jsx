@@ -17,6 +17,7 @@ class App extends React.Component {
     this.state = {
       page: 'home',
     }
+    
     this.handleHomeClick = this.handleHomeClick.bind(this);
     this.handleAboutClick = this.handleAboutClick.bind(this);
     this.handleContactClick = this.handleContactClick.bind(this);

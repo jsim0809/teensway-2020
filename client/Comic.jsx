@@ -71,7 +71,7 @@ class Comic extends React.Component {
           </div>
           <div className="comic"></div>
           <div className="comic-dot-bar">
-            {students[student].comicPages.map((page, index) => index === currentPage ? <span className="comic-dot-red">•</span> : <span className="comic-dot-gray">•</span>)}
+            {students[student].comicPages.map((page, index) => index === currentPage ? <span key={index} className="comic-dot-red">•</span> : <span key={index} className="comic-dot-gray">•</span>)}
           </div>
         </div>
 

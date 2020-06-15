@@ -403,3 +403,23 @@ i {
   background-color: hsla(0, 0%, 0%, 0.1);
   margin: 10px;
 }
+
+/* About the Teachers section */
+
+.about-the-teachers {
+  padding: 2rem;
+  background-color: var(--wing-luke-light-yellow);
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher {
+  display: flex;
+}
+
+.teacher-avatar {
+  width: 240px;
+  height: 240px;
+  margin: 10px;
+  background-color: hsla(0, 0%, 0%, 0.1);
+}

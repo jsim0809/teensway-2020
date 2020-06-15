@@ -1,10 +1,10 @@
 import React from 'react';
 
-function About({ student }) {
+function AboutTheClass() {
   return (
     <section>
     </section>
   );
 }
 
-export default About;
+export default AboutTheClass;

@@ -5,8 +5,8 @@ import Carousel from './Carousel.jsx';
 import Gallery from './Gallery.jsx';
 import Comic from './Comic.jsx';
 import Bio from './Bio.jsx';
-import AboutClass from './AboutClass.jsx';
-import AboutTeachers from './AboutTeachers.jsx';
+import AboutTheClass from './AboutTheClass.jsx';
+import AboutTheTeachers from './AboutTheTeachers.jsx';
 import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
 
@@ -75,8 +75,8 @@ class App extends React.Component {
               handleAboutClick={this.handleAboutClick}
               handleContactClick={this.handleContactClick}
             />
-            <AboutClass />
-            <AboutTeachers />
+            <AboutTheClass />
+            <AboutTheTeachers />
             <Footer />
           </div>
         );

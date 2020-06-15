@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Contact({ student }) {
+function Contact() {
   return (
     <section>
     </section>

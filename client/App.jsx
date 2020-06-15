@@ -5,7 +5,8 @@ import Carousel from './Carousel.jsx';
 import Gallery from './Gallery.jsx';
 import Comic from './Comic.jsx';
 import Bio from './Bio.jsx';
-import About from './About.jsx';
+import AboutClass from './AboutClass.jsx';
+import AboutTeachers from './AboutTeachers.jsx';
 import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
 
@@ -69,18 +70,25 @@ class App extends React.Component {
       case 'about':
         return (
           <div>
-            <Header />
-            <Comic student={page} />
-            <Bio student={page} />
+            <Header 
+              handleHomeClick={this.handleHomeClick}
+              handleAboutClick={this.handleAboutClick}
+              handleContactClick={this.handleContactClick}
+            />
+            <AboutClass />
+            <AboutTeachers />
             <Footer />
           </div>
         );
       case 'contact':
         return (
           <div>
-            <Header />
-            <Comic student={page} />
-            <Bio student={page} />
+            <Header 
+              handleHomeClick={this.handleHomeClick}
+              handleAboutClick={this.handleAboutClick}
+              handleContactClick={this.handleContactClick}
+            />
+            <Contact />
             <Footer />
           </div>
         );

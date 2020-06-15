@@ -377,3 +377,29 @@ i {
   width: 220px;
   line-height: 1.25rem;
 }
+
+/* About the Class section */
+
+.about-the-class {
+  display: flex;
+  padding: 5rem 10rem;
+}
+
+.about-the-class h2 {
+  padding: 1rem;
+  font-size: 3.5rem;
+  letter-spacing: 0.25rem;
+}
+
+.about-the-class p {
+  padding: 1rem 10rem 1rem 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  max-width: 800px;
+}
+.about-the-class-image {
+  height: 300px;
+  width: 500px;
+  background-color: hsla(0, 0%, 0%, 0.1);
+  margin: 10px;
+}

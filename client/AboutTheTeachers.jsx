@@ -9,9 +9,9 @@ function AboutTheTeachers() {
         <div className="teacher">
           <div className="teacher-avatar"></div>
           <div className="teacher-text">
-            <div className="teacher-text-title">{ teacher.title }</div>
-            <div className="teacher-text-name">{ teacher.name }</div>
-            <div className="teacher-text-bio">{ teacher.bio }</div>
+            <h4>{ teacher.title }</h4>
+            <h3>{ teacher.name }</h3>
+            <p>{ teacher.bio }</p>
           </div>
         </div>
       ))}

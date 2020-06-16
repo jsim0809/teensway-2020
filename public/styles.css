@@ -399,7 +399,7 @@ i {
 }
 .about-the-class-image {
   height: 300px;
-  width: 500px;
+  width: 600px;
   background-color: hsla(0, 0%, 0%, 0.1);
   margin: 10px;
 }
@@ -407,7 +407,7 @@ i {
 /* About the Teachers section */
 
 .about-the-teachers {
-  padding: 2rem;
+  padding: 8rem;
   background-color: var(--wing-luke-light-yellow);
   display: flex;
   flex-direction: column;
@@ -415,11 +415,31 @@ i {
 
 .teacher {
   display: flex;
+  padding: 2rem;
 }
 
 .teacher-avatar {
-  width: 240px;
-  height: 240px;
-  margin: 10px;
+  width: 200px;
+  height: 200px;
   background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+.teacher-text {
+  padding-left: 2rem;
+}
+
+.teacher-text h4 {
+  font-size: 1.5rem;
+}
+
+.teacher-text h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.teacher-text p {
+  font-size: 1rem;
+  max-width: 800px;
+  line-height: 1.25rem;
 }

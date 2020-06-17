@@ -1,5 +1,5 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Switch, Route, useLocation } from 'react-router-dom';
 
 import BigHeader from './BigHeader.jsx';
 import Header from './Header.jsx';
@@ -13,6 +13,12 @@ import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <Switch>
       <Route exact path="/">

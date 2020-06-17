@@ -18,7 +18,8 @@ body {
 }
 
 i {
-  opacity: 0.4;
+  font-size: smaller;
+  opacity: 0.3;
 }
 
 a {

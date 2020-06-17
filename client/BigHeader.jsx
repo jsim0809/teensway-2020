@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function BigHeader({ handleHomeClick, handleAboutClick, handleContactClick }) {
+function BigHeader() {
 
   return (
     <header className="big-header">

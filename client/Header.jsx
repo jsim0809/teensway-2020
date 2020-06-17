@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Header({ handleHomeClick, handleAboutClick, handleContactClick }) {
-
+function Header() {
   return (
     <header className="small-header">
       <Link to="/">

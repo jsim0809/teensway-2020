@@ -21,6 +21,11 @@ i {
   opacity: 0.4;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 /* Main page header */
 
 .big-header {
@@ -69,11 +74,6 @@ i {
   opacity: 0.4;
 }
 
-.big-header ul li a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
 /* Small header, including nav bar */
 
 .small-header, .footer-text {
@@ -117,11 +117,6 @@ i {
 
 .small-header ul li:hover {
   opacity: 0.4;
-}
-
-.small-header ul li a {
-  color: inherit;
-  text-decoration: inherit;
 }
 
 /* Splash carousel */

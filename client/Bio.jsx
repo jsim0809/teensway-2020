@@ -1,8 +1,10 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 import students from '../public/database/students.js';
 
-function Bio({ student }) {
+function Bio() {
+  const { student } = useParams();
   return (
     <section className="bio">
       <div className="bio-blurb">

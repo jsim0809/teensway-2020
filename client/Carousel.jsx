@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import students from '../public/database/students.js';
+import students from '../docs/database/students.js';
 
 function Carousel() {
   const [imgOrder, setImgOrder] = useState([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);

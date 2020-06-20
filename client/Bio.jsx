@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-import students from '../public/database/students.js';
+import students from '../docs/database/students.js';
 
 function Bio() {
   const { student } = useParams();

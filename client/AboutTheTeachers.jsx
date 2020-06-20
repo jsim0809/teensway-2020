@@ -1,6 +1,6 @@
 import React from 'react';
 
-import teachers from '../public/database/teachers.js';
+import teachers from '../docs/database/teachers.js';
 
 function AboutTheTeachers() {
   return (

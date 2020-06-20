@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import students from '../public/database/students.js';
+import students from '../docs/database/students.js';
 
 function Comic() {
   const [currentPage, setCurrentPage] = useState(0);

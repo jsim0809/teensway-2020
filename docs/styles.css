@@ -73,11 +73,12 @@ a {
 
 .big-header ul {
   display: flex;
+  align-items: center;
   border-top: var(--wing-luke-yellow) 3px solid;
   border-bottom: var(--wing-luke-yellow) 3px solid;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .big-header ul {
     flex-direction: column;
   }
@@ -86,6 +87,7 @@ a {
 .big-header ul li {
   padding: 0.5rem 1.5rem;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .big-header ul li:hover {

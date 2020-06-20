@@ -10,6 +10,7 @@ import Bio from './Bio.jsx';
 import AboutTheClass from './AboutTheClass.jsx';
 import AboutTheTeachers from './AboutTheTeachers.jsx';
 import Contact from './Contact.jsx';
+import Submissions from './Submissions.jsx';
 import Footer from './Footer.jsx';
 
 function App() {
@@ -41,6 +42,13 @@ function App() {
         <div>
           <Header />
           <Contact />
+          <Footer />
+        </div>
+      </Route>
+      <Route path="/submissions">
+        <div>
+          <Header />
+          <Submissions />
           <Footer />
         </div>
       </Route>

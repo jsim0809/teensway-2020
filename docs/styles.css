@@ -70,10 +70,16 @@ a {
 }
 
 .big-header ul {
-  margintop: 2.5rem;
+  margin-top: 2.5rem;
   display: flex;
   border-top: var(--wing-luke-yellow) 3px solid;
   border-bottom: var(--wing-luke-yellow) 3px solid;
+}
+
+@media (max-width: 600px) {
+  .big-header ul {
+    flex-direction: column;
+  }
 }
 
 .big-header ul li {

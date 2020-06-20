@@ -17,6 +17,10 @@ function Contact() {
           <input type="text" name="_replyto" />
         </label>
         <label>
+          <div>Your submission (.png or .jpg format)</div>
+          <input type="file" name="attachment" accept="image/png, image/jpeg"></input>
+        </label>
+        <label>
           <div>Your message</div>
           <textarea name="message"></textarea>
         </label>

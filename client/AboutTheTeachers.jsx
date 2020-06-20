@@ -6,7 +6,7 @@ function AboutTheTeachers() {
   return (
     <section className="about-the-teachers">
       {teachers.map((teacher) => (
-        <div className="teacher">
+        <div className="teacher" key={teacher.id}>
           <div className="teacher-avatar"></div>
           <div className="teacher-text">
             <h4>{ teacher.title }</h4>

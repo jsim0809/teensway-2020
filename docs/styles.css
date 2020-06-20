@@ -31,6 +31,8 @@ a {
 
 .logo {
   width: 100%;
+  box-sizing: border-box;
+  padding: 30px;
 }
 
 .logo img {
@@ -38,8 +40,8 @@ a {
 }
 
 .big-header {
-  height: 20rem;
-  width: fit-content;
+  max-width: 800px;
+  padding: 20px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -70,7 +72,6 @@ a {
 }
 
 .big-header ul {
-  margin-top: 2.5rem;
   display: flex;
   border-top: var(--wing-luke-yellow) 3px solid;
   border-bottom: var(--wing-luke-yellow) 3px solid;

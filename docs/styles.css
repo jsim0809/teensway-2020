@@ -29,8 +29,20 @@ a {
 
 /* Main page header */
 
+.logo {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.logo img {
+  width: 100%;
+}
+
 .big-header {
-  height: 20rem;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,15 +72,22 @@ a {
 }
 
 .big-header ul {
-  margintop: 2.5rem;
   display: flex;
+  align-items: center;
   border-top: var(--wing-luke-yellow) 3px solid;
   border-bottom: var(--wing-luke-yellow) 3px solid;
+}
+
+@media (max-width: 700px) {
+  .big-header ul {
+    flex-direction: column;
+  }
 }
 
 .big-header ul li {
   padding: 0.5rem 1.5rem;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .big-header ul li:hover {
@@ -125,7 +144,7 @@ a {
 .splash {
   margin: 0 auto;
   height: 400px;
-  width: 800px;
+  max-width: 800px;
   position: relative;
   background-color: whitesmoke;
 }

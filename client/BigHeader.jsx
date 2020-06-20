@@ -5,12 +5,11 @@ function BigHeader() {
 
   return (
     <header className="big-header">
-      <h1 className="teensway-font">
-        <Link to="/">TEENSWAY</Link>
-      </h1>
-      <h1 className="comics-font">
-        <Link to="/">Comics!</Link>
-      </h1>
+      <div className="logo">
+        <Link to="/">
+          <img src="assets/teensway-logo.png" />
+        </Link>
+      </div>
       <nav>
         <ul>
           <li>

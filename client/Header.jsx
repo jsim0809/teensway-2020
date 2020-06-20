@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header className="small-header">
-      <Link to="/">
-        <h1><span className="teensway-font">TEENSWAY</span> <span className="comics-font">Comics!</span></h1>
-      </Link>
+      <div className="small-header-logo">
+        <Link to="/">
+          <img src="assets/teensway-logo.png" />
+        </Link>
+      </div>
       <nav>
         <ul>
           <li>

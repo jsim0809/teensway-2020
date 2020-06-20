@@ -104,6 +104,16 @@ a {
   background-color: var(--wing-luke-yellow);
 }
 
+.small-header-logo {
+  height: 100%;
+}
+
+.small-header-logo img {
+  box-sizing: border-box;
+  height: 50px;
+  padding: 7px;
+}
+
 .small-header h1 {
   padding: 1.5rem;
   display: flex;

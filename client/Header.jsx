@@ -13,7 +13,10 @@ function Header() {
             <Link to="/about">ABOUT</Link>
           </li>
           <li>
-            <Link to="/contact">SUBMISSIONS</Link>
+            <Link to="/contact">CONTACT</Link>
+          </li>
+          <li>
+            <Link to="/submissions">SUBMISSIONS</Link>
           </li>
           <li><a href="https://www.wingluke.org/single-exhibit/?mep_event=3866" target="_blank">TEENSWAY <i className="fas fa-external-link-alt"></i></a></li>
           <li><a href="https://www.wingluke.org/" target="_blank">WING LUKE MUSEUM <i className="fas fa-external-link-alt"></i></a></li>

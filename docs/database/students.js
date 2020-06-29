@@ -1,4 +1,4 @@
-const WORK_IMAGES = '/docs/database/work_images';
+const WORK_IMAGES = 'database/work_images';
 
 module.exports = [
   {

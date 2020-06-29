@@ -1,3 +1,5 @@
+const WORK_IMAGES = '/docs/database/work_images';
+
 module.exports = [
   {
     id: 0,
@@ -52,7 +54,17 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/nadjia-01.jpg`,
+      `${WORK_IMAGES}/nadjia-02.jpg`,
+      `${WORK_IMAGES}/nadjia-03.jpg`,
+      `${WORK_IMAGES}/nadjia-04.jpg`,
+      `${WORK_IMAGES}/nadjia-05.jpg`,
+      `${WORK_IMAGES}/nadjia-06.jpg`,
+      `${WORK_IMAGES}/nadjia-07.jpg`,
+      `${WORK_IMAGES}/nadjia-08.jpg`,
+      `${WORK_IMAGES}/nadjia-09.jpg`,
+    ],
   },
   {
     id: 5,
@@ -63,7 +75,9 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/naomi-01.jpg`,
+    ],
   },
   {
     id: 6,
@@ -107,7 +121,11 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/olivia-01.jpg`,
+      `${WORK_IMAGES}/olivia-02.jpg`,
+      `${WORK_IMAGES}/olivia-03.jpg`,
+    ],
   },
   {
     id: 10,

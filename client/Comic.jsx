@@ -43,7 +43,9 @@ function Comic() {
           <span onClick={handleRightArrowClick} className="comic-arrow">&#129106;</span>
           <span onClick={handleMaxClick} className="comic-max-arrow">&#8677;</span>
         </div>
-        <div className="comic"></div>
+        <div style={{
+          backgroundImage: `url(${students[student].comicPages[currentPage]})`
+        }} className="comic"></div>
         <div className="comic-dot-bar">
           {students[student].comicPages.map((page, index) => index === currentPage ? <span key={index} className="comic-dot-red">•</span> : <span key={index} className="comic-dot-gray">•</span>)}
         </div>

@@ -191,6 +191,8 @@ module.exports = [
     workImageLarge: '',
     workImageSmall: '',
     blurb: '',
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/marigold-01.jpg`
+    ],
   }
 ];

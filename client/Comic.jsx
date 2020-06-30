@@ -28,9 +28,7 @@ function Comic() {
   }
 
   const handleMaxClick = () => {
-    this.setState({
-      currentPage: students[student].comicPages.length - 1,
-    })
+    setCurrentPage(students[student].comicPages.length - 1);
   }
 
   return (

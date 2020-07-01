@@ -48,7 +48,6 @@ function Comic() {
           {students[student].comicPages.map((page, index) => index === currentPage ? <span key={index} className="comic-dot-red">•</span> : <span key={index} className="comic-dot-gray">•</span>)}
         </div>
       </div>
-
     </section>
   );
 }

@@ -7,7 +7,7 @@ function Submissions() {
         <h2>SUBMISSIONS</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos magni enim optio ullam, nobis officiis eos qui nesciunt nemo ipsa quae, eveniet ab dicta minus illum voluptatibus maiores veniam amet?</p>
       </div>
-      <form action="https://formspree.io/mnqgzade" method="POST" enctype="multipart/form-data">
+      <form action="https://formspree.io/mnqgzade" method="POST" encType="multipart/form-data">
         <label>
           <div>Your name</div>
           <input type="text" name="name" />

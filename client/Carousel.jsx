@@ -47,8 +47,8 @@ function Carousel() {
           </Link>
         </div>
         <div className="splash-arrows">
-          <a onClick={handleLeftArrowClick} className="splash-left">&#10094;</a>
-          <a onClick={handleRightArrowClick} className="splash-right">&#10095;</a>
+          <a onClick={handleLeftArrowClick} className="splash-left"><i class="fas fa-chevron-left"></i></a>
+          <a onClick={handleRightArrowClick} className="splash-right"><i class="fas fa-chevron-right"></i></a>
         </div>
       </div>
     </section>

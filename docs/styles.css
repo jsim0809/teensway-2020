@@ -163,6 +163,14 @@ a {
   cursor: pointer;
 }
 
+.splash-left:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.splash-right:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
 .splash-text {
   right: 0;
   bottom: 0;

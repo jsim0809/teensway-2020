@@ -35,17 +35,23 @@ function Comic() {
     <section>
       <div className="comic-section">
         <div className="comic-arrow-bar">
-          <span onClick={handleZeroClick} className="comic-max-arrow">&#8676;</span>
-          <span onClick={handleLeftArrowClick} className="comic-arrow">&#129104;</span>
+          <span onClick={handleZeroClick} className="comic-max-arrow"><i className="fas fa-angle-double-left"></i></span>
+          <span onClick={handleLeftArrowClick} className="comic-arrow"><i className="fas fa-angle-left"></i></span>
           <span onClick={handleRandomClick} className="comic-random">RANDOM</span>
-          <span onClick={handleRightArrowClick} className="comic-arrow">&#129106;</span>
-          <span onClick={handleMaxClick} className="comic-max-arrow">&#8677;</span>
+          <span onClick={handleRightArrowClick} className="comic-arrow"><i className="fas fa-angle-right"></i></span>
+          <span onClick={handleMaxClick} className="comic-max-arrow"><i className="fas fa-angle-double-right"></i></span>
         </div>
         <div style={{
           backgroundImage: `url(${students[student].comicPages[currentPage]})`
         }} className="comic"></div>
         <div className="comic-dot-bar">
-          {students[student].comicPages.map((page, index) => index === currentPage ? <span key={index} className="comic-dot-red">•</span> : <span key={index} className="comic-dot-gray">•</span>)}
+          {students[student].comicPages.map((page, index) => {
+            if (index === currentPage) {
+              return <span key={index} className="comic-dot-red"><i className="fas fa-circle"></i></span>;
+            } else {
+              return <span key={index} className="comic-dot-gray"><i className="fas fa-circle"></i></span>;
+            }
+          })}
         </div>
       </div>
     </section>

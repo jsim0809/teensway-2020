@@ -19,8 +19,13 @@ body {
 
 i {
   font-size: smaller;
+}
+
+i.fa-external-link-alt {
   opacity: 0.3;
 }
+
+
 
 a {
   color: inherit;
@@ -164,11 +169,11 @@ a {
 }
 
 .splash-left:hover {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .splash-right:hover {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .splash-text {
@@ -303,13 +308,13 @@ a {
 
 .comic-arrow {
   cursor: pointer;
-  padding: 0 10px;
-  font-size: 3rem;
+  padding: 0 12px 9px 12px;
+  font-size: 3.8rem;
 }
 
 .comic-max-arrow {
   cursor: pointer;
-  padding: 0 10px 9px 10px;
+  padding: 0 12px 9px 12px;
   font-size: 3.8rem;
 }
 
@@ -337,15 +342,17 @@ a {
 
 .comic-dot-bar {
   padding: 20px;
-  font-size: 1.3rem;
-  letter-spacing: 10px;
+  font-size: 1rem;
+  letter-spacing: 12px;
 }
 
 .comic-dot-red {
+  font-size: smaller;
   color: var(--wing-luke-red);
 }
 
 .comic-dot-gray {
+  font-size: smaller;
   opacity: 0.4;
 }
 

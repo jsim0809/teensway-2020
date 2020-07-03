@@ -332,13 +332,14 @@ a {
 
 .comic {
   padding: 20px;
+  margin: 25px;
   height: 600px;
   width: 800px;
   background-color: hsla(0, 0%, 0%, 0.1);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: 0 0 60px #000000;
+  box-shadow: 0 0 50px #000000;
 }
 
 .comic-dot-bar {

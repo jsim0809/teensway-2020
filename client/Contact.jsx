@@ -1,4 +1,5 @@
 import React from 'react';
+import HubspotForm from 'react-hubspot-form';
 
 function Contact() {
   return (
@@ -7,23 +8,12 @@ function Contact() {
         <h2>CONTACT</h2>
         <p>Enjoyed a comic? Want to leave a note for one of our creators? Leave your message here, and we'll make sure it reaches them.</p>
       </div>
-      <form action="https://formspree.io/mnqgzade" method="POST">
-        <label>
-          <div>Your name</div>
-          <input type="text" name="name" />
-        </label>
-        <label>
-          <div>Your email</div>
-          <input type="text" name="_replyto" />
-        </label>
-        <label>
-          <div>Your message</div>
-          <textarea name="message"></textarea>
-        </label>
-        <div>
-          <button type="submit">Send</button>
-        </div>
-      </form>
+      <div className="contact-form">
+        <HubspotForm
+          portalId="8038008"
+          formId="f976db6b-2c51-4b0e-92ad-05be4e6a53a3"
+        />
+      </div>
     </section>
   );
 }

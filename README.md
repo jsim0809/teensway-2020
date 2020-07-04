@@ -10,7 +10,7 @@ https://jsim0809.github.io/teensway-2020/
 - HTML, CSS
 - React (+Hooks)
 - React Router
-- Formspree.io
+- Hubspot Forms
 - Github Pages
 
 ## Contributors

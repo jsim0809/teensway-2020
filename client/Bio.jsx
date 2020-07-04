@@ -7,10 +7,6 @@ function Bio() {
   const { student } = useParams();
   return (
     <section className="bio">
-      <div className="bio-blurb">
-        <h2>{ students[student].workTitle.toUpperCase() }</h2>
-        <p>{ students[student].blurb }</p>
-      </div>
       <div className="bio-author">
         <div className="bio-author-avatar"></div>
         <h3>{ students[student].name }</h3>

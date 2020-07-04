@@ -8,7 +8,9 @@ module.exports = [
     avatar: `${AVATARS}/profilepic_Blank.jpg`,
     bio: `This is Christian Basilio's second time writing a comic.\n\nHe hopes that you like it and that you have a nice day.`,
     workImageLarge: '',
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/christian-01.PNG`,
+    ],
   },
   {
     id: 1,
@@ -16,7 +18,11 @@ module.exports = [
     avatar: `${AVATARS}/profilepic_Blank.jpg`,
     bio: '',
     workImageLarge: '',
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/ryan-01.PNG`,
+      `${WORK_IMAGES}/ryan-02.PNG`,
+      `${WORK_IMAGES}/ryan-03.jpg`,
+    ],
   },
   {
     id: 2,
@@ -60,7 +66,11 @@ module.exports = [
     avatar: `${AVATARS}/profilepic_Emma.jpg`,
     bio: `Emma Hearn is a 7th-grader who enjoys spending time with family and friends, being outside, eating delicious food, listening to music, and watching Korean dramas. She lives in Renton, Washington, with her parents.`,
     workImageLarge: '',
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/emma-01.jpg`,
+      `${WORK_IMAGES}/emma-02.jpg`,
+      `${WORK_IMAGES}/emma-03.jpg`,
+    ],
   },
   {
     id: 6,
@@ -88,6 +98,9 @@ module.exports = [
       `${WORK_IMAGES}/olivia-01.jpg`,
       `${WORK_IMAGES}/olivia-02.jpg`,
       `${WORK_IMAGES}/olivia-03.jpg`,
+      `${WORK_IMAGES}/olivia-05.PNG`,
+      `${WORK_IMAGES}/olivia-06.PNG`,
+      `${WORK_IMAGES}/olivia-07.PNG`,
     ],
   },
   {
@@ -121,7 +134,8 @@ module.exports = [
     bio: `Marigold is a strange Asian teen from Seattle, Washington, who enjoys eating even when she is not hungry, listening to music, and drawing. She dreams of owning a bus when she is 80.\n\nMarigold hopes to one day be able to say that she can make grilled cheese sandwiches without feeling like she is about to burn down the house.`,
     workImageLarge: '',
     comicPages: [
-      `${WORK_IMAGES}/marigold-01.jpg`
+      `${WORK_IMAGES}/marigold-01.jpg`,
+      `${WORK_IMAGES}/marigold-02.PNG`,
     ],
   }
 ];

@@ -7,7 +7,7 @@ function BigHeader() {
     <header className="big-header">
       <div className="logo">
         <Link to="/">
-          <img src="assets/teensway-logo.png" />
+          <img src="assets/teensway-logo-light-bg.png" />
         </Link>
       </div>
       <nav>

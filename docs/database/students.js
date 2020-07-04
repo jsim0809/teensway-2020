@@ -5,8 +5,8 @@ module.exports = [
   {
     id: 0,
     name: 'Christian Basilio',
-    avatar: '',
-    bio: '',
+    avatar: `${AVATARS}/profilepic_Blank.jpg`,
+    bio: `This is Christian Basilio's second time writing a comic.\n\nHe hopes that you like it and that you have a nice day.`,
     workTitle: 'Title',
     workImageLarge: '',
     workImageSmall: '',
@@ -16,7 +16,7 @@ module.exports = [
   {
     id: 1,
     name: 'Ryan Erfe-Johnson',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Blank.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -27,7 +27,7 @@ module.exports = [
   {
     id: 2,
     name: 'Kazimir Gier',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Blank.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -39,7 +39,7 @@ module.exports = [
     id: 3,
     name: 'Nadjia Gier',
     avatar: `${AVATARS}/profilepic_Nadjia.jpg`,
-    bio: '',
+    bio: `Nadjia Gier lives in Seattle, Washington and enjoys crafting, drawing, watching TV, sleeping, and, of course, eating.`,
     workTitle: 'Title',
     workImageLarge: '',
     workImageSmall: '',
@@ -59,7 +59,7 @@ module.exports = [
   {
     id: 4,
     name: 'Naomi Epp Hamilton',
-    avatar: `${AVATARS}/profilepic_Naomi.jpg`,
+    avatar: `${AVATARS}/profilepic_Naomi.png`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -83,7 +83,7 @@ module.exports = [
   {
     id: 6,
     name: 'Calvin Hou',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Blank.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -94,7 +94,7 @@ module.exports = [
   {
     id: 7,
     name: 'Laela Johnson',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Blank.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -142,7 +142,7 @@ module.exports = [
   {
     id: 11,
     name: 'Violet Pody',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Blank.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',

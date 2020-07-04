@@ -3,9 +3,13 @@ import { useParams } from 'react-router-dom';
 
 import students from '../docs/database/students.js';
 
+import LightboxModal from './LightboxModal.jsx';
+
 function Comic() {
   const [currentPage, setCurrentPage] = useState(0);
+  const [displayLightbox, setLightbox] = useState(false);
   const { student } = useParams();
+  const currentComicUrl = students[student].comicPages[currentPage];
 
   const handleZeroClick = () => {
     setCurrentPage(0);
@@ -31,8 +35,13 @@ function Comic() {
     setCurrentPage(students[student].comicPages.length - 1);
   }
 
+  const comicClick = () => {
+    setLightbox(true);
+  }
+
   return (
     <section>
+      {displayLightbox ? <LightboxModal image={currentComicUrl} /> : null}
       <div className="comic-section">
         <div className="comic-arrow-bar">
           <span onClick={handleZeroClick} className="comic-max-arrow"><i className="fas fa-angle-double-left"></i></span>
@@ -41,10 +50,7 @@ function Comic() {
           <span onClick={handleRightArrowClick} className="comic-arrow"><i className="fas fa-angle-right"></i></span>
           <span onClick={handleMaxClick} className="comic-max-arrow"><i className="fas fa-angle-double-right"></i></span>
         </div>
-        {/* <div style={{
-          backgroundImage: `url(${students[student].comicPages[currentPage]})`
-        }} className="comic"></div> */}
-        <img className="comic" src={students[student].comicPages[currentPage]} alt=""/>
+        <img className="comic" src={currentComicUrl} alt=""/>
         <div className="comic-dot-bar">
           {students[student].comicPages.map((page, index) => {
             if (index === currentPage) {

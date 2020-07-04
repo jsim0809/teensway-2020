@@ -4,7 +4,7 @@ module.exports = [
     title: 'Teaching Artist',
     name: 'Jeremy Sim',
     avatar: '',
-    bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam quod suscipit facilis quidem et totam! Consequuntur est aliquam, sed hic quae suscipit ipsa. Labore officia nostrum rem dolor cumque?',
+    bio: `Jeremy Sim is a teacher, writer, software engineer, and pluviophile. He is a graduate of Clarion West Writers Workshop, and is the author of numerous short stories and graphic novels. He served as Teensway's Teaching Artist in 2019 and 2020. Like Luke Skywalker, he is known for drinking green milk from a jar.`,
   },
   {
     id: 1,

@@ -35,13 +35,17 @@ function Comic() {
     setCurrentPage(students[student].comicPages.length - 1);
   }
 
-  const comicClick = () => {
+  const handleComicClick = () => {
     setLightbox(true);
+  }
+
+  const handleLightboxExitClick = () => {
+    setLightbox(false);
   }
 
   return (
     <section>
-      {displayLightbox ? <LightboxModal image={currentComicUrl} /> : null}
+      {displayLightbox ? <LightboxModal image={currentComicUrl} handleLightboxExitClick={handleLightboxExitClick} /> : null}
       <div className="comic-section">
         <div className="comic-arrow-bar">
           <span onClick={handleZeroClick} className="comic-max-arrow"><i className="fas fa-angle-double-left"></i></span>
@@ -50,7 +54,7 @@ function Comic() {
           <span onClick={handleRightArrowClick} className="comic-arrow"><i className="fas fa-angle-right"></i></span>
           <span onClick={handleMaxClick} className="comic-max-arrow"><i className="fas fa-angle-double-right"></i></span>
         </div>
-        <img className="comic" src={currentComicUrl} alt=""/>
+        <img className="comic" src={currentComicUrl} alt="" onClick={handleComicClick} />
         <div className="comic-dot-bar">
           {students[student].comicPages.map((page, index) => {
             if (index === currentPage) {

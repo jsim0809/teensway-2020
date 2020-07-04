@@ -9,7 +9,7 @@ function Gallery() {
       {students.map((student) => (
         <div className="gallery-item" key={student.id}>
           <Link to={`/${student.id}`}>
-            <img src={student.avatar} alt="" className="gallery-item-thumbnail" />
+            <img src={student.avatar} alt="" className="avatar gallery-item-thumbnail" />
           </Link>
           <div className="gallery-item-text">
             <Link to={`/${student.id}`}>

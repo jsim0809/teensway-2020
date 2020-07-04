@@ -8,7 +8,7 @@ function Bio() {
   return (
     <section className="bio">
       <div className="bio-author">
-        <img src={students[student].avatar} alt="" className="bio-author-avatar" />
+        <img src={students[student].avatar} alt="" className="avatar" />
         <div className="bio-author-text">
           <h3>{ students[student].name }</h3>
           <p>{ students[student].bio }</p>

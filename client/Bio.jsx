@@ -8,9 +8,11 @@ function Bio() {
   return (
     <section className="bio">
       <div className="bio-author">
-        <div className="bio-author-avatar"></div>
-        <h3>{ students[student].name }</h3>
-        <p>{ students[student].bio }</p>
+        <img src={students[student].avatar} alt="" className="bio-author-avatar" />
+        <div className="bio-author-text">
+          <h3>{ students[student].name }</h3>
+          <p>{ students[student].bio }</p>
+        </div>
       </div>
     </section>
   );

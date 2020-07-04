@@ -189,22 +189,11 @@ a {
   border-radius: 0.2rem;
 }
 
-.splash-author {
-  cursor: pointer;
-  padding: 0.75rem 0.75rem 0 0.75rem;
-  font-size: 1rem;
-  letter-spacing: 0.25rem;
-}
-
 .splash-title {
   cursor: pointer;
   padding: 0.75rem;
-  font-size: 2rem;
-  letter-spacing: 0.25rem;
-}
-
-.splash-author:hover {
-  opacity: 0.4;
+  font-size: 1.25rem;
+  letter-spacing: 0.15rem;
 }
 
 .splash-title:hover {
@@ -322,14 +311,14 @@ a {
 }
 
 .comic {
-  margin: 25px;
-  max-height: 70vh;
+  margin: 15px;
+  max-height: 60vh;
   max-width: 50vw;
   border: 1px solid #666666;
 }
 
 .comic-dot-bar {
-  padding: 20px;
+  padding: 25px;
   font-size: 1rem;
   letter-spacing: 12px;
 }
@@ -347,43 +336,29 @@ a {
 /* Bio section */
 
 .bio {
-  padding: 2rem;
+  padding: 1rem;
   background-color: var(--wing-luke-light-yellow);
   display: flex;
-  justify-content: space-around;
-}
-
-.bio-blurb {
-  padding: 5rem 10rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.bio-blurb h2 {
-  padding: 1rem;
-  margin-top: 4rem;
-  font-size: 3.5rem;
-  letter-spacing: 0.25rem;
-}
-
-.bio-blurb p {
-  padding: 1rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  justify-content: center;
 }
 
 .bio-author {
-  padding: 5rem 10rem;
+  padding: 4rem 10rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
 .bio-author-avatar {
-  width: 240px;
-  height: 240px;
-  margin: 10px;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
   background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+.bio-author-text {
+  margin: 15px;
+  white-space: pre-wrap;
 }
 
 .bio-author h3 {

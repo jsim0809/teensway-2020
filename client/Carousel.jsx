@@ -40,10 +40,7 @@ function Carousel() {
         <div className="img-0"></div>
         <div className="splash-text">
           <Link to={`/${imgOrder[currentIndex]}`}>
-            <div className="splash-author">{students[imgOrder[currentIndex]].name}</div>
-          </Link>
-          <Link to={`/${imgOrder[currentIndex]}`}>
-            <div className="splash-title">{students[imgOrder[currentIndex]].workTitle.toUpperCase()}</div>
+            <div className="splash-title">{students[imgOrder[currentIndex]].name}</div>
           </Link>
         </div>
         <div className="splash-arrows">

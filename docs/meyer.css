@@ -46,3 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Sim Reset v1.0
+	License: none (public domain)
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

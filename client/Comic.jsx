@@ -35,7 +35,7 @@ function Comic() {
     setCurrentPage(students[student].comicPages.length - 1);
   }
 
-  const handleComicClick = () => {
+  const handleLightboxClick = () => {
     setLightbox(true);
   }
 
@@ -54,7 +54,7 @@ function Comic() {
           <span onClick={handleRightArrowClick} className="comic-arrow"><i className="fas fa-angle-right"></i></span>
           <span onClick={handleMaxClick} className="comic-max-arrow"><i className="fas fa-angle-double-right"></i></span>
         </div>
-        <img className="comic" src={currentComicUrl} alt="" onClick={handleComicClick} />
+        <img className="comic" src={currentComicUrl} alt="" onClick={handleLightboxClick} />
         <div className="comic-dot-bar">
           {students[student].comicPages.map((page, index) => {
             if (index === currentPage) {

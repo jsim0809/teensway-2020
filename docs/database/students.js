@@ -1,4 +1,5 @@
 const WORK_IMAGES = 'database/work_images';
+const AVATARS = 'database/avatars';
 
 module.exports = [
   {
@@ -37,7 +38,7 @@ module.exports = [
   {
     id: 3,
     name: 'Nadjia Gier',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Nadjia.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -58,7 +59,7 @@ module.exports = [
   {
     id: 4,
     name: 'Naomi Epp Hamilton',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Naomi.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -71,7 +72,7 @@ module.exports = [
   {
     id: 5,
     name: 'Emma Hearn',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Emma.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -104,7 +105,7 @@ module.exports = [
   {
     id: 8,
     name: 'Olivia Kang',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Olivia.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -119,7 +120,7 @@ module.exports = [
   {
     id: 9,
     name: "Ronan Kang-O'Higgins",
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Ronan.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -130,7 +131,7 @@ module.exports = [
   {
     id: 10,
     name: 'Calleigh Lee',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Calleigh.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',
@@ -152,7 +153,7 @@ module.exports = [
   {
     id: 12,
     name: 'Marigold Wong',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Marigold.jpg`,
     bio: '',
     workTitle: 'Title',
     workImageLarge: '',

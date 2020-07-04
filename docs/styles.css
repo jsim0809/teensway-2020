@@ -331,6 +331,18 @@ a {
 }
 
 .comic {
+  padding: 10px;
+  margin: 25px;
+  /* max-height: auto; */
+  max-width: 40%;
+  background-color: #333333;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 0 30px #000000;
+}
+
+/* .comic {
   padding: 20px;
   margin: 25px;
   height: 600px;
@@ -340,7 +352,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 0 0 50px #000000;
-}
+} */
 
 .comic-dot-bar {
   padding: 20px;

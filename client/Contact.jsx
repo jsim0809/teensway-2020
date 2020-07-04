@@ -5,7 +5,7 @@ function Contact() {
     <section className="contact">
       <div className="contact-text">
         <h2>CONTACT</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos magni enim optio ullam, nobis officiis eos qui nesciunt nemo ipsa quae, eveniet ab dicta minus illum voluptatibus maiores veniam amet?</p>
+        <p>Enjoyed a comic? Want to leave a note for one of our creators? Leave your message here, and we'll make sure it reaches them.</p>
       </div>
       <form action="https://formspree.io/mnqgzade" method="POST">
         <label>

@@ -229,11 +229,11 @@ a {
   cursor: pointer;
   width: 200px;
   height: 200px;
-  border: 2px solid #888888;
+  border: 2px solid #777777;
 }
 
 .gallery-item-text {
-  padding: 1rem 0.5rem;
+  padding: 0.5rem;
 }
 
 .gallery-item-author {
@@ -242,16 +242,11 @@ a {
   font-size: 1.1rem;
   font-weight: 900;
   text-align: center;
+  line-height: 1.4rem;
 }
 
 .gallery-item-author:hover {
   opacity: 0.4;
-}
-
-.gallery-item-blurb {
-  padding: 0.5rem;
-  line-height: 1.2rem;
-  white-space: pre-wrap;
 }
 
 /* Footer */

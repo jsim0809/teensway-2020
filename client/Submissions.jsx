@@ -5,7 +5,7 @@ function Submissions() {
     <section className="contact">
       <div className="contact-text">
         <h2>SUBMISSIONS</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos magni enim optio ullam, nobis officiis eos qui nesciunt nemo ipsa quae, eveniet ab dicta minus illum voluptatibus maiores veniam amet?</p>
+        <p>If you attended Teensway 2020, you can add to your personal comic page by sending Jeremy a message here. You can send in a new comic, a new avatar picture, or a new bio. Or just say hi!</p>
       </div>
       <form action="https://formspree.io/mnqgzade" method="POST" encType="multipart/form-data">
         <label>

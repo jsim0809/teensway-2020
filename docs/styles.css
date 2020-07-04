@@ -15,7 +15,7 @@
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: #FFFCF6;
+  /* background-color: #FFFCF6; */
 }
 
 i {
@@ -222,7 +222,7 @@ a {
 
 .gallery-item {
   width: 200px;
-  margin: 20px 45px;
+  margin: 15px 45px;
 }
 
 .gallery-item-thumbnail {

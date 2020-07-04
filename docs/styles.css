@@ -10,7 +10,6 @@
   --wing-luke-red: hsl(4, 94%, 28%);
   --wing-luke-light-yellow: hsla(41, 98%, 59%, 0.4);
   --header-height: 50px;
-  --footer-height: 2rem;
 }
 
 body {
@@ -56,7 +55,7 @@ i.fa-external-link-alt {
 }
 
 .big-header {
-  padding: 5rem 0 2.5rem 0;
+  padding: 8vh 0 2.5rem 0;
 }
 
 .big-header h1 {
@@ -207,7 +206,8 @@ i.fa-external-link-alt {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 60px 250px;
+  max-width: 1200px;
+  margin: 60px auto;
 }
 
 .gallery-item {
@@ -239,9 +239,8 @@ i.fa-external-link-alt {
 /* Footer */
 
 .footer-text {
-  height: var(--footer-height);
   font-size: 0.75rem;
-  padding: 0 1rem;
+  padding: 0.5rem;
   position: relative;
 }
 
@@ -255,8 +254,7 @@ i.fa-external-link-alt {
   display: inline-block;
   position: absolute;
   right: 0;
-  bottom: var(--footer-height);
-  transform: rotate(90deg);
+  bottom: 40px;
   font-size: 3rem;
   margin: 2.5rem;
   color: hsla(0, 0%, 0%, 0.4);

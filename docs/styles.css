@@ -398,9 +398,7 @@ a {
   max-width: 800px;
 }
 .about-the-class-image {
-  height: 300px;
-  width: 600px;
-  background-color: hsla(0, 0%, 0%, 0.1);
+  max-width: 600px;
   margin: 10px;
 }
 

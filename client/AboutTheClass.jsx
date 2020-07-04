@@ -5,10 +5,10 @@ function AboutTheClass() {
     <section className="about-the-class">
       <div className="about-the-class-text">
         <h2>ABOUT</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quo eum sunt, amet soluta repellat. Iusto excepturi quasi natus iste numquam tempore rem, cum ullam. Rem quod mollitia deserunt porro?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus corrupti deleniti ullam ratione, tempore officia sint. Laboriosam veritatis ut quasi neque ad perferendis commodi architecto non qui, quaerat eaque adipisci!</p>
+        <p>Teensway is an annual art program hosted by the Wing Luke Museum of the Asian Pacific American Experience in Seattle, Washington. Our middle-school youth (10–14 years) come together to explore Asian Pacific American culture, heritage, and community through art.</p>
+        <p>In June 2020, our fearless Teensway artists braved the coronavirus pandemic and the perils of online video-chat software to create this collection of wonderful webcomics. We hope you enjoy them.</p>
       </div>
-      <div className="about-the-class-image"></div>
+      <img src="assets/zoom-class-small.png" alt="" className="about-the-class-image" />
     </section>
   );
 }

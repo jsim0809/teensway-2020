@@ -31,7 +31,6 @@ i.fa-external-link-alt {
   width: 200px;
   height: 200px;
   border: 2px solid #777777;
-  margin: 0 2rem;
 }
 
 /* Main page header */
@@ -428,13 +427,13 @@ i.fa-external-link-alt {
 
 .about-the-class {
   display: flex;
-  padding: 5rem 0;
+  margin: 5rem 0;
   justify-content: space-evenly;
 }
 
 @media (max-width: 700px) {
   .about-the-class {
-    padding: 1rem 0 2rem 0;
+    margin: 1rem 0.5rem;
     flex-direction: column;
   }
 }
@@ -472,6 +471,10 @@ i.fa-external-link-alt {
   .about-the-class p {
     text-align: center;
   }
+
+  .about-the-class-image {
+    margin: 2rem 0;
+  }
 }
 
 
@@ -488,6 +491,26 @@ i.fa-external-link-alt {
 .teacher {
   display: flex;
   padding: 2rem;
+}
+
+.teacher-text {
+  padding: 0 2rem;
+}
+
+.teacher-text h4 {
+  font-size: 1.5rem;
+}
+
+.teacher-text h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.teacher-text p {
+  font-size: 1rem;
+  max-width: 800px;
+  line-height: 1.4rem;
 }
 
 @media (max-width: 700px) {
@@ -512,22 +535,6 @@ i.fa-external-link-alt {
   .teacher-text p {
     text-align: center;
   }
-}
-
-.teacher-text h4 {
-  font-size: 1.5rem;
-}
-
-.teacher-text h3 {
-  padding: 1rem 0;
-  font-size: 2rem;
-  letter-spacing: 0.1rem;
-}
-
-.teacher-text p {
-  font-size: 1rem;
-  max-width: 800px;
-  line-height: 1.4rem;
 }
 
 /* Contact section */

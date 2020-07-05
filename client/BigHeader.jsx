@@ -5,11 +5,9 @@ function BigHeader() {
 
   return (
     <header className="big-header">
-      <div className="logo">
         <Link to="/">
-          <img src="assets/teensway-logo-light-bg.png" />
+          <img src="assets/teensway-logo-transparent.png" className="logo" />
         </Link>
-      </div>
       <nav>
         <ul>
           <li>

@@ -31,6 +31,7 @@ i.fa-external-link-alt {
   width: 200px;
   height: 200px;
   border: 2px solid #777777;
+  margin: 0 2rem;
 }
 
 /* Main page header */
@@ -102,8 +103,7 @@ i.fa-external-link-alt {
 
 /* Small header, including nav bar */
 
-.small-header, .footer-text {
-  height: var(--header-height);
+.small-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -111,7 +111,7 @@ i.fa-external-link-alt {
 }
 
 .small-header h1 {
-  padding: 1.5rem;
+  padding: 0.5rem 2rem;
   display: flex;
   flex-direction: row;
   cursor: pointer;
@@ -129,6 +129,20 @@ i.fa-external-link-alt {
   color: var(--wing-luke-red);
 }
 
+@media (max-width: 700px) {
+  .small-header h1 {
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .small-header .teensway-font {
+    font-size: 2rem;
+  }
+
+  .small-header .comics-font {
+    font-size: 4rem;
+  }
+}
+
 .small-header ul {
   display: flex;
   flex-direction: row;
@@ -136,8 +150,14 @@ i.fa-external-link-alt {
   padding: 0.5rem;
 }
 
+@media (max-width: 700px) {
+  .small-header, .small-header ul {
+    flex-direction: column;
+  }
+}
+
 .small-header ul li {
-  padding: 0 1.5rem;
+  padding: 0.5rem 1.5rem;
   cursor: pointer;
 }
 
@@ -239,9 +259,20 @@ i.fa-external-link-alt {
 /* Footer */
 
 .footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--wing-luke-yellow);
   font-size: 0.75rem;
-  padding: 0.5rem;
   position: relative;
+}
+
+.footer-text p {
+  padding: 0.5rem;
+}
+
+.right-align {
+  text-align: right;
 }
 
 .back-to-top {
@@ -254,7 +285,7 @@ i.fa-external-link-alt {
   display: inline-block;
   position: absolute;
   right: 0;
-  bottom: 40px;
+  bottom: 30px;
   font-size: 3rem;
   margin: 2.5rem;
   color: hsla(0, 0%, 0%, 0.4);
@@ -397,8 +428,17 @@ i.fa-external-link-alt {
 
 .about-the-class {
   display: flex;
-  padding: 5rem 10rem;
+  padding: 5rem 0;
+  justify-content: space-evenly;
 }
+
+@media (max-width: 700px) {
+  .about-the-class {
+    padding: 1rem 0 2rem 0;
+    flex-direction: column;
+  }
+}
+
 
 .about-the-class h2 {
   padding: 1rem;
@@ -407,15 +447,33 @@ i.fa-external-link-alt {
 }
 
 .about-the-class p {
-  padding: 1rem 10rem 0 1rem;
+  padding: 1rem;
   font-size: 1.25rem;
   line-height: 2rem;
   max-width: 800px;
 }
+
 .about-the-class-image {
+  width: 100%;
   max-width: 600px;
-  margin: 10px;
+  height: auto;
 }
+
+@media (max-width: 700px) {
+  .about-the-class {
+    padding: 1rem 0;
+    flex-direction: column;
+  }
+
+  .about-the-class h2 {
+    text-align: center;
+  }
+
+  .about-the-class p {
+    text-align: center;
+  }
+}
+
 
 /* About the Teachers section */
 
@@ -424,6 +482,7 @@ i.fa-external-link-alt {
   background-color: var(--wing-luke-light-yellow);
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .teacher {
@@ -431,8 +490,28 @@ i.fa-external-link-alt {
   padding: 2rem;
 }
 
-.teacher-text {
-  padding-left: 2rem;
+@media (max-width: 700px) {
+  .about-the-teachers {
+    padding: 1rem 0 3rem 0;
+  }
+
+  .teacher {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teacher-text h4 {
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  .teacher-text h3 {
+    text-align: center;
+  }
+
+  .teacher-text p {
+    text-align: center;
+  }
 }
 
 .teacher-text h4 {

@@ -399,13 +399,6 @@ i.fa-external-link-alt {
   align-items: flex-start;
 }
 
-.bio-author-avatar {
-  width: 200px;
-  height: 200px;
-  margin: 15px;
-  background-color: hsla(0, 0%, 0%, 0.1);
-}
-
 .bio-author-text {
   margin: -4px 20px;
   white-space: pre-wrap;

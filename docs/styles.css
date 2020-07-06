@@ -424,14 +424,6 @@ i.fa-external-link-alt {
   justify-content: space-evenly;
 }
 
-@media (max-width: 700px) {
-  .about-the-class {
-    margin: 1rem 0.5rem;
-    flex-direction: column;
-  }
-}
-
-
 .about-the-class h2 {
   padding: 1rem;
   font-size: 3.5rem;
@@ -453,7 +445,7 @@ i.fa-external-link-alt {
 
 @media (max-width: 700px) {
   .about-the-class {
-    padding: 1rem 0;
+    margin: 1rem 0.5rem;
     flex-direction: column;
   }
 
@@ -540,7 +532,7 @@ i.fa-external-link-alt {
 }
 
 .contact-text {
-  width: 600px;
+  max-width: 600px;
 }
 
 .contact-text h2 {
@@ -559,7 +551,21 @@ i.fa-external-link-alt {
 .contact-form {
   margin: 1rem;
   padding: 1rem 1rem 1rem 1rem;
-  width: 570px;
+  max-width: 570px;
   background-color: white;
   border: 1px solid #666666;
+}
+
+@media (max-width: 700px) {
+  .contact {
+    margin: 1rem 0.5rem;
+    padding: 0;
+  }
+  /* .about-the-class p {
+    text-align: center;
+  }
+
+  .about-the-class-image {
+    margin: 2rem 0;
+  } */
 }

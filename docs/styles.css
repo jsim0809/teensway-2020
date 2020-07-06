@@ -225,13 +225,13 @@ i.fa-external-link-alt {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 60px auto;
 }
 
 .gallery-item {
   width: 200px;
-  margin: 15px 45px;
+  margin: 15px;
 }
 
 .gallery-item-thumbnail {

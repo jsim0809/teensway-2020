@@ -84,7 +84,7 @@ i.fa-external-link-alt {
   border-bottom: var(--wing-luke-yellow) 3px solid;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .big-header ul {
     flex-direction: column;
   }
@@ -128,17 +128,17 @@ i.fa-external-link-alt {
   color: var(--wing-luke-red);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .small-header h1 {
     padding: 1rem 1rem 0 1rem;
   }
 
   .small-header .teensway-font {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .small-header .comics-font {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -149,7 +149,7 @@ i.fa-external-link-alt {
   padding: 0.5rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .small-header, .small-header ul {
     flex-direction: column;
   }
@@ -301,7 +301,6 @@ i.fa-external-link-alt {
 }
 
 .comic-arrow-bar {
-  margin-left: 14px;
   display: flex;
   align-items: center;
 }
@@ -345,7 +344,7 @@ i.fa-external-link-alt {
 }
 
 .comic-dot-bar {
-  padding: 25px;
+  padding: 5px 0 40px 0;
   font-size: 1rem;
   letter-spacing: 12px;
 }
@@ -358,6 +357,28 @@ i.fa-external-link-alt {
 .comic-dot-gray {
   font-size: smaller;
   opacity: 0.4;
+}
+
+@media (max-width: 850px) {
+  .comic {
+    max-height: 95vh;
+    max-width: 95vw;
+  }
+
+  .comic-random {
+    padding: 0 16px;
+    font-size: 1rem;
+  }
+  
+  .comic-arrow {
+    padding: 0 8px 6px 8px;
+    font-size: 3rem;
+  }
+  
+  .comic-max-arrow {
+    padding: 0 8px 6px 8px;
+    font-size: 3rem;
+  }
 }
 
 /* Lightbox modal */
@@ -383,6 +404,13 @@ i.fa-external-link-alt {
   cursor: zoom-out;
 }
 
+@media (max-width: 850px) {
+  .lightbox-image{
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+}
+
 /* Bio section */
 
 .bio {
@@ -393,7 +421,7 @@ i.fa-external-link-alt {
 }
 
 .bio-author {
-  padding: 4rem 10rem;
+  padding: 4rem 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -414,6 +442,26 @@ i.fa-external-link-alt {
   padding: 5px 10px;
   width: 240px;
   line-height: 1.25rem;
+}
+
+@media (max-width: 850px) {
+  .bio-author {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bio-author-text {
+    margin: 20px;
+  }
+
+  .bio-author h3 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .bio-author p {
+    text-align: center;
+  }
 }
 
 /* About the Class section */
@@ -443,7 +491,7 @@ i.fa-external-link-alt {
   height: auto;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .about-the-class {
     margin: 1rem 0.5rem;
     flex-direction: column;
@@ -499,7 +547,7 @@ i.fa-external-link-alt {
   line-height: 1.4rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .about-the-teachers {
     padding: 1rem 0 3rem 0;
   }
@@ -559,7 +607,7 @@ i.fa-external-link-alt {
   border: 1px solid #666666;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .contact {
     margin: 1rem 0.5rem;
     padding: 0;

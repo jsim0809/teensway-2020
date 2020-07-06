@@ -533,6 +533,7 @@ i.fa-external-link-alt {
 
 .contact-text {
   max-width: 600px;
+  min-width: 600px;
 }
 
 .contact-text h2 {
@@ -552,6 +553,7 @@ i.fa-external-link-alt {
   margin: 1rem;
   padding: 1rem 1rem 1rem 1rem;
   max-width: 570px;
+  min-width: 570px;
   background-color: white;
   border: 1px solid #666666;
 }
@@ -561,11 +563,12 @@ i.fa-external-link-alt {
     margin: 1rem 0.5rem;
     padding: 0;
   }
-  /* .about-the-class p {
-    text-align: center;
+
+  .contact-text {
+    min-width: 0;
   }
 
-  .about-the-class-image {
-    margin: 2rem 0;
-  } */
+  .contact-form {
+    min-width: 0;
+  }
 }

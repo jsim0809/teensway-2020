@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-
-import students from '../docs/database/students.js';
 
 function Carousel() {
-  const [imgOrder, setImgOrder] = useState([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
+  const [imgOrder, setImgOrder] = useState([0, 1]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const carouselImages = ['./assets/Ocean-01.jpg', './assets/Ocean-02.jpg'];
 
   useEffect(() => {
     // Initialize a random list of students' ids using inside-out Fisher-Yates shuffle
     const ids = []
-    for (let i = 0; i < students.length; i += 1) {
+    for (let i = 0; i < 2; i += 1) {
       const swapIndex = Math.floor(Math.random() * (i + 1));
       ids[i] = ids[swapIndex];
       ids[swapIndex] = i;
@@ -37,12 +35,7 @@ function Carousel() {
   return (
     <section>
       <div className="splash">
-        <div className="img-0"></div>
-        <div className="splash-text">
-          <Link to={`/${imgOrder[currentIndex]}`}>
-            <div className="splash-title">{students[imgOrder[currentIndex]].name}</div>
-          </Link>
-        </div>
+        <img src={carouselImages[currentIndex]} alt="" className="splash-img" />
         <div className="splash-arrows">
           <a onClick={handleLeftArrowClick} className="splash-left"><i className="fas fa-chevron-left"></i></a>
           <a onClick={handleRightArrowClick} className="splash-right"><i className="fas fa-chevron-right"></i></a>

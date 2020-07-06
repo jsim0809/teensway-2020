@@ -5,9 +5,8 @@ module.exports = [
   {
     id: 0,
     name: 'Christian Basilio',
-    avatar: `${AVATARS}/profilepic_Blank.jpg`,
+    avatar: `${AVATARS}/profilepic_Christian.jpg`,
     bio: `This is Christian Basilio's second time writing a comic.\n\nHe hopes that you like it and that you have a nice day.`,
-    workImageLarge: '',
     comicPages: [
       `${WORK_IMAGES}/christian-01.PNG`,
     ],
@@ -15,9 +14,8 @@ module.exports = [
   {
     id: 1,
     name: 'Ryan Erfe-Johnson',
-    avatar: `${AVATARS}/profilepic_Blank.jpg`,
+    avatar: `${AVATARS}/profilepic_Ryan.jpg`,
     bio: '',
-    workImageLarge: '',
     comicPages: [
       `${WORK_IMAGES}/ryan-01.PNG`,
       `${WORK_IMAGES}/ryan-02.PNG`,
@@ -27,9 +25,8 @@ module.exports = [
   {
     id: 2,
     name: 'Kazimir Gier',
-    avatar: `${AVATARS}/profilepic_Blank.jpg`,
+    avatar: `${AVATARS}/profilepic_Kaz.jpg`,
     bio: '',
-    workImageLarge: '',
     comicPages: [],
   },
   {
@@ -37,7 +34,6 @@ module.exports = [
     name: 'Nadjia Gier',
     avatar: `${AVATARS}/profilepic_Nadjia.jpg`,
     bio: `Nadjia Gier lives in Seattle, Washington, and enjoys crafting, drawing, watching TV, sleeping, and, of course, eating.`,
-    workImageLarge: '',
     comicPages: [
       `${WORK_IMAGES}/nadjia-01.jpg`,
       `${WORK_IMAGES}/nadjia-02.jpg`,
@@ -55,7 +51,6 @@ module.exports = [
     name: 'Naomi Epp Hamilton',
     avatar: `${AVATARS}/profilepic_Naomi.png`,
     bio: `Naomi is a thirteen-year-old girl who lives in Seattle, Washington, with her family. She enjoys writing and drawing comics. It's her dream job to be a graphic novel artist and writer.`,
-    workImageLarge: '',
     comicPages: [
       `${WORK_IMAGES}/naomi-01.jpg`,
     ],
@@ -65,7 +60,6 @@ module.exports = [
     name: 'Emma Hearn',
     avatar: `${AVATARS}/profilepic_Emma.jpg`,
     bio: `Emma Hearn is a 7th-grader who enjoys spending time with family and friends, being outside, eating delicious food, listening to music, and watching Korean dramas. She lives in Renton, Washington, with her parents.`,
-    workImageLarge: '',
     comicPages: [
       `${WORK_IMAGES}/emma-01.jpg`,
       `${WORK_IMAGES}/emma-02.jpg`,
@@ -75,17 +69,15 @@ module.exports = [
   {
     id: 6,
     name: 'Calvin Hou',
-    avatar: `${AVATARS}/profilepic_Blank.jpg`,
+    avatar: `${AVATARS}/profilepic_Calvin.jpg`,
     bio: '',
-    workImageLarge: '',
     comicPages: [],
   },
   {
     id: 7,
     name: 'Laela Johnson',
-    avatar: `${AVATARS}/profilepic_Blank.jpg`,
+    avatar: `${AVATARS}/profilepic_Laela.jpg`,
     bio: '',
-    workImageLarge: '',
     comicPages: [],
   },
   {
@@ -93,7 +85,6 @@ module.exports = [
     name: 'Olivia Kang',
     avatar: `${AVATARS}/profilepic_Olivia.jpg`,
     bio: `Radishes were an accident. Olivia didn't know what to draw, but now she hopes to create a line of radish items made and drawn by her.\n\nShe thinks art is fun, but lacks the ability to draw a decent-looking circle.`,
-    workImageLarge: '',
     comicPages: [
       `${WORK_IMAGES}/olivia-01.jpg`,
       `${WORK_IMAGES}/olivia-02.jpg`,
@@ -101,6 +92,7 @@ module.exports = [
       `${WORK_IMAGES}/olivia-05.PNG`,
       `${WORK_IMAGES}/olivia-06.PNG`,
       `${WORK_IMAGES}/olivia-07.PNG`,
+      `${WORK_IMAGES}/olivia-09.PNG`,
     ],
   },
   {
@@ -108,23 +100,22 @@ module.exports = [
     name: "Ronan Kang-O'Higgins",
     avatar: `${AVATARS}/profilepic_Ronan.jpg`,
     bio: `Ronan is fifteen years old and has been doing art programs for many years. This is his second year making graphic novels at Teensway.`,
-    workImageLarge: '',
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/ronan-01.jpg`,
+    ],
   },
   {
     id: 10,
     name: 'Calleigh Lee',
     avatar: `${AVATARS}/profilepic_Calleigh.jpg`,
     bio: `This is Leafy, a small little plant. She doesn't do much — she just sits in the sun. Leafy watches the people walk by, and hopes that one day she can walk too.`,
-    workImageLarge: '',
     comicPages: [],
   },
   {
     id: 11,
     name: 'Violet Pody',
-    avatar: `${AVATARS}/profilepic_Blank.jpg`,
+    avatar: `${AVATARS}/profilepic_Violet.jpg`,
     bio: `Violet is fourteen years old. She likes to listen to music and draw faces.`,
-    workImageLarge: '',
     comicPages: [],
   },
   {
@@ -132,7 +123,6 @@ module.exports = [
     name: 'Marigold Wong',
     avatar: `${AVATARS}/profilepic_Marigold.jpg`,
     bio: `Marigold is a strange Asian teen from Seattle, Washington, who enjoys eating even when she is not hungry, listening to music, and drawing. She dreams of owning a bus when she is 80.\n\nMarigold hopes to one day be able to say that she can make grilled cheese sandwiches without feeling like she is about to burn down the house.`,
-    workImageLarge: '',
     comicPages: [
       `${WORK_IMAGES}/marigold-01.jpg`,
       `${WORK_IMAGES}/marigold-02.PNG`,

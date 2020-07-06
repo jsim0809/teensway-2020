@@ -12,14 +12,14 @@ module.exports = [
     id: 1,
     title: 'Teaching Artist',
     name: 'Ruby Wang',
-    avatar: '',
-    bio: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro error quas vel, quia nobis voluptas autem, quo nisi aspernatur reprehenderit unde officia voluptatem, qui doloribus ut nam eligendi nesciunt necessitatibus.',
+    avatar: `${AVATARS}/profilepic_RubytheFrog.jpg`,
+    bio: `Ruby Wang is a graphic designer, illustrator, and dancer based in Seattle, Washington. She mostly likes to draw stick figures, trees, rocks, and grass. This is her second year teaching Teensway. Sometimes she feels like a frog.`,
   },
   {
     id: 2,
     title: 'Program Coordinator',
     name: 'Maya Hayashi',
-    avatar: '',
+    avatar: `${AVATARS}/profilepic_Maya.jpg`,
     bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio eum, placeat libero quas nam laudantium adipisci. Delectus sint at, est placeat blanditiis quis quasi magni dolorem dignissimos sed!',
   },
 ]

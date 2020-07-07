@@ -33,6 +33,10 @@ function Ruby() {
     setCurrentPage(teachers[1].comicPages.length - 1);
   }
 
+  const handleDotClick = (index) => {
+    setCurrentPage(index);
+  }
+
   const handleLightboxClick = () => {
     setLightbox(true);
   }
@@ -57,9 +61,9 @@ function Ruby() {
           <div className="comic-dot-bar">
             {teachers[1].comicPages.map((page, index) => {
               if (index === currentPage) {
-                return <span key={index} className="comic-dot-red"><i className="fas fa-circle"></i></span>;
+                return <span key={index} className="comic-dot-red" onClick={() => {handleDotClick(index)}}><i className="fas fa-circle"></i></span>;
               } else {
-                return <span key={index} className="comic-dot-gray"><i className="fas fa-circle"></i></span>;
+                return <span key={index} className="comic-dot-gray" onClick={() => {handleDotClick(index)}}><i className="fas fa-circle"></i></span>;
               }
             })}
           </div>

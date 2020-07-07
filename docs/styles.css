@@ -349,11 +349,13 @@ i.fa-external-link-alt {
 .comic-dot-red {
   font-size: smaller;
   color: var(--wing-luke-red);
+  cursor: pointer;
 }
 
 .comic-dot-gray {
   font-size: smaller;
   opacity: 0.4;
+  cursor: pointer;
 }
 
 @media (max-width: 850px) {

@@ -35,7 +35,7 @@ function Carousel() {
   return (
     <section>
       <div className="splash">
-        <img src={carouselImages[currentIndex]} alt="" className="splash-img" />
+        <img src={carouselImages[imgOrder[currentIndex]]} alt="" className="splash-img" />
         <div className="splash-arrows">
           <a onClick={handleLeftArrowClick} className="splash-left"><i className="fas fa-chevron-left"></i></a>
           <a onClick={handleRightArrowClick} className="splash-right"><i className="fas fa-chevron-right"></i></a>

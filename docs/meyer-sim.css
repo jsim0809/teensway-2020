@@ -1,14 +1,23 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* 
+	======================
+	Meyer-Sim Reset, v1.01
+	======================
+
+	Eric Meyer's CSS Reset 2.0 can be found at https://meyerweb.com/eric/tools/css/reset/.
+   
+	Edits & additions by Jeremy Sim. Latest edit was July 6, 2020.
+
+	Change log:
+	- Remove styling (color, underline) from <a> tags.
+	- Allow <strong>, <em>, <b>, <i>, and <u>.
+
 */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -46,10 +55,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* Sim Reset v1.0
-	License: none (public domain)
-*/
 
 a {
   color: inherit;

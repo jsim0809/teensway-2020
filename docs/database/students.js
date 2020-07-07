@@ -122,7 +122,7 @@ module.exports = [
     id: 12,
     name: 'Marigold Wong',
     avatar: `${AVATARS}/profilepic_Marigold.jpg`,
-    bio: `Marigold is a strange Asian teen from Seattle, Washington, who enjoys eating even when she is not hungry, listening to music, and drawing. She dreams of owning a bus when she is 80.\n\nMarigold hopes to one day be able to say that she can make grilled cheese sandwiches without feeling like she is about to burn down the house.`,
+    bio: `Marigold is a strange Asian teen from Seattle, Washington, who enjoys eating even when she is not hungry, listening to music, drawing, and dreaming of owning a bus when she is 80.\n\nMarigold hopes to one day be able to say that she can make grilled cheese sandwiches without feeling like she is about to burn down the house.`,
     comicPages: [
       `${WORK_IMAGES}/marigold-01.jpg`,
       `${WORK_IMAGES}/marigold-02.PNG`,

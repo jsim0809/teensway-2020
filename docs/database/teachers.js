@@ -1,3 +1,4 @@
+const WORK_IMAGES = 'database/work_images';
 const AVATARS = 'database/avatars';
 
 module.exports = [
@@ -14,6 +15,11 @@ module.exports = [
     name: 'Ruby Wang',
     avatar: `${AVATARS}/profilepic_RubytheFrog.jpg`,
     bio: `Ruby Wang is a graphic designer, illustrator, and dancer based in Seattle, Washington. She mostly likes to draw stick figures, trees, rocks, and grass. This is her second year teaching Teensway. Sometimes she feels like a frog.`,
+    comicPages: [
+      `${WORK_IMAGES}/ruby-01.jpg`,
+      `${WORK_IMAGES}/ruby-02.jpg`,
+      `${WORK_IMAGES}/ruby-03.PNG`,
+    ],
   },
   {
     id: 2,

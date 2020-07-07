@@ -9,6 +9,7 @@ import Comic from './Comic.jsx';
 import Bio from './Bio.jsx';
 import AboutTheClass from './AboutTheClass.jsx';
 import AboutTheTeachers from './AboutTheTeachers.jsx';
+import Ruby from './Ruby.jsx';
 import Contact from './Contact.jsx';
 import Submissions from './Submissions.jsx';
 import Footer from './Footer.jsx';
@@ -49,6 +50,13 @@ function App() {
         <div>
           <Header />
           <Submissions />
+          <Footer />
+        </div>
+      </Route>
+      <Route path="/ruby">
+        <div>
+          <Header />
+          <Ruby />
           <Footer />
         </div>
       </Route>

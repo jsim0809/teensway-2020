@@ -6,7 +6,7 @@ function BigHeader() {
   return (
     <header className="big-header">
         <Link to="/">
-          <img src="assets/teensway-logo-transparent.png" className="logo" />
+          <img src="assets/teensway-logo-transparent.png" alt="Teensway Comics!" className="logo" />
         </Link>
       <nav>
         <ul>

@@ -128,6 +128,23 @@ i.fa-external-link-alt {
   color: var(--wing-luke-red);
 }
 
+.small-header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.small-header ul li {
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.small-header ul li:hover {
+  opacity: 0.4;
+}
+
 @media (max-width: 850px) {
   .small-header h1 {
     padding: 1rem 1rem 0 1rem;
@@ -140,36 +157,22 @@ i.fa-external-link-alt {
   .small-header .comics-font {
     font-size: 3rem;
   }
-}
 
-.small-header ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  padding: 0.5rem;
-}
-
-@media (max-width: 850px) {
-  .small-header, .small-header ul {
+  .small-header {
+    flex-direction: column;
+  } 
+  
+  .small-header ul {
     flex-direction: column;
   }
-}
-
-.small-header ul li {
-  padding: 0.5rem 1.5rem;
-  cursor: pointer;
-}
-
-.small-header ul li:hover {
-  opacity: 0.4;
 }
 
 /* Splash carousel */
 
 .splash {
   margin: 0 auto;
-  height: 447px;
-  width: 800px;
+  height: 422px;
+  width: 755px;
   position: relative;
 }
 
@@ -198,7 +201,7 @@ i.fa-external-link-alt {
 }
 
 .splash-img {
-  width: 800px;
+  width: 755px;
   position: absolute;
 }
 
@@ -217,15 +220,15 @@ i.fa-external-link-alt {
 
 .gallery {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 826px;
   margin: 40px auto;
 }
 
 .gallery-item {
   width: 200px;
-  margin: 15px;
+  padding: 10px;
 }
 
 .gallery-item-thumbnail {

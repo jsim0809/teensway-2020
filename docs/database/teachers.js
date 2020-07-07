@@ -26,6 +26,6 @@ module.exports = [
     title: 'Program Coordinator',
     name: 'Maya Hayashi',
     avatar: `${AVATARS}/profilepic_Maya.jpg`,
-    bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio eum, placeat libero quas nam laudantium adipisci. Delectus sint at, est placeat blanditiis quis quasi magni dolorem dignissimos sed!',
+    bio: `Maya works at the Wing Luke Museum and has learned so much throughout her years of being the Teensway Program Coordinator. She's learned how to sew, how to paint murals, how to make prints, and how to create graphic novels and webcomics — all thanks to our wonderful Teaching Artists and Teenway students. When she's not at the museum, she can be found cuddling her dog on the couch while playing Animal Crossing.`,
   },
 ]

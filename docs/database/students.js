@@ -9,6 +9,8 @@ module.exports = [
     bio: `This is Christian Basilio's second time writing a comic.\n\nHe hopes that you like it and that you have a nice day.`,
     comicPages: [
       `${WORK_IMAGES}/christian-01.PNG`,
+      `${WORK_IMAGES}/christian-02.PNG`,
+      `${WORK_IMAGES}/christian-03.PNG`,
     ],
   },
   {
@@ -27,7 +29,11 @@ module.exports = [
     name: 'Kazimir Gier',
     avatar: `${AVATARS}/profilepic_Kaz.jpg`,
     bio: '',
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/kaz-01.jpg`,
+      `${WORK_IMAGES}/kaz-02.jpg`,
+      `${WORK_IMAGES}/kaz-03.jpg`,
+    ],
   },
   {
     id: 3,
@@ -64,6 +70,8 @@ module.exports = [
       `${WORK_IMAGES}/emma-01.jpg`,
       `${WORK_IMAGES}/emma-02.jpg`,
       `${WORK_IMAGES}/emma-03.jpg`,
+      `${WORK_IMAGES}/emma-04.jpg`,
+      `${WORK_IMAGES}/emma-05.PNG`,
     ],
   },
   {
@@ -71,7 +79,9 @@ module.exports = [
     name: 'Calvin Hou',
     avatar: `${AVATARS}/profilepic_Calvin.jpg`,
     bio: '',
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/calvin-01.PNG`,
+    ],
   },
   {
     id: 7,
@@ -93,6 +103,8 @@ module.exports = [
       `${WORK_IMAGES}/olivia-06.PNG`,
       `${WORK_IMAGES}/olivia-07.PNG`,
       `${WORK_IMAGES}/olivia-09.PNG`,
+      `${WORK_IMAGES}/olivia-10.jpg`,
+      `${WORK_IMAGES}/olivia-11.jpg`,
     ],
   },
   {
@@ -109,14 +121,19 @@ module.exports = [
     name: 'Calleigh Lee',
     avatar: `${AVATARS}/profilepic_Calleigh.jpg`,
     bio: `This is Leafy, a small little plant. She doesn't do much — she just sits in the sun. Leafy watches the people walk by, and hopes that one day she can walk too.`,
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/calleigh-01.jpg`,
+      `${WORK_IMAGES}/calleigh-02.jpg`,
+    ],
   },
   {
     id: 11,
     name: 'Violet Pody',
     avatar: `${AVATARS}/profilepic_Violet.jpg`,
     bio: `Violet is fourteen years old. She likes to listen to music and draw faces.`,
-    comicPages: [],
+    comicPages: [
+      `${WORK_IMAGES}/violet-01.PNG`,
+    ],
   },
   {
     id: 12,

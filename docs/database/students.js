@@ -84,7 +84,7 @@ module.exports = [
     id: 8,
     name: 'Olivia Kang',
     avatar: `${AVATARS}/profilepic_Olivia.jpg`,
-    bio: `Radishes were an accident. Olivia didn't know what to draw, but now she hopes to create a line of radish items made and drawn by her.\n\nShe thinks art is fun, but lacks the ability to draw a decent-looking circle.`,
+    bio: `Radishes were an accident. Olivia didn't know what to do, but now she hopes to create a line of radish items made and drawn by her.\n\nShe thinks art is fun, but lacks the ability to draw a decent-looking circle.`,
     comicPages: [
       `${WORK_IMAGES}/olivia-01.jpg`,
       `${WORK_IMAGES}/olivia-02.jpg`,

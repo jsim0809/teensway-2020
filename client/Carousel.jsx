@@ -8,7 +8,7 @@ function Carousel() {
   useEffect(() => {
     // Initialize a random list of students' ids using inside-out Fisher-Yates shuffle
     const ids = []
-    for (let i = 0; i < 2; i += 1) {
+    for (let i = 0; i < carouselImages.length; i += 1) {
       const swapIndex = Math.floor(Math.random() * (i + 1));
       ids[i] = ids[swapIndex];
       ids[swapIndex] = i;

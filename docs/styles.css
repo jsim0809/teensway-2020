@@ -169,7 +169,7 @@ i.fa-external-link-alt {
 .splash {
   margin: 0 auto;
   height: 447px;
-  max-width: 800px;
+  width: 800px;
   position: relative;
 }
 
@@ -198,8 +198,19 @@ i.fa-external-link-alt {
 }
 
 .splash-img {
-  max-width: 800px;
+  width: 800px;
   position: absolute;
+}
+
+@media (max-width: 850px) {
+  .splash {
+    max-width: 95vw;
+    max-height: 53vw;
+  }
+
+  .splash-img {
+    max-width: 95vw;
+  }
 }
 
 /* Gallery */
@@ -209,7 +220,7 @@ i.fa-external-link-alt {
   justify-content: space-evenly;
   flex-wrap: wrap;
   max-width: 800px;
-  margin: 60px auto;
+  margin: 40px auto;
 }
 
 .gallery-item {

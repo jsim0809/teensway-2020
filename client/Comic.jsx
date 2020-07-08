@@ -59,14 +59,16 @@ function Comic() {
           <span onClick={handleRightArrowClick} className="comic-arrow"><i className="fas fa-angle-right"></i></span>
           <span onClick={handleMaxClick} className="comic-max-arrow"><i className="fas fa-angle-double-right"></i></span>
         </div>
-        { currentCaption ? <div className="comic-caption">{currentCaption}</div> : null }
-        <img className="comic" src={currentComicUrl} alt="" onClick={handleLightboxClick} />
+        <div>
+          {currentCaption ? <div className="comic-caption">{currentCaption}</div> : null}
+          <img className="comic" src={currentComicUrl} alt="" onClick={handleLightboxClick} />
+        </div>
         <div className="comic-dot-bar">
           {students[student].comicPages.map((page, index) => {
             if (index === currentPage) {
-              return <span key={index} className="comic-dot-red" onClick={() => {handleDotClick(index)}}><i className="fas fa-circle"></i></span>;
+              return <span key={index} className="comic-dot-red" onClick={() => { handleDotClick(index) }}><i className="fas fa-circle"></i></span>;
             } else {
-              return <span key={index} className="comic-dot-gray" onClick={() => {handleDotClick(index)}}><i className="fas fa-circle"></i></span>;
+              return <span key={index} className="comic-dot-gray" onClick={() => { handleDotClick(index) }}><i className="fas fa-circle"></i></span>;
             }
           })}
         </div>

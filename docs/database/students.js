@@ -13,8 +13,8 @@ module.exports = [
       `${WORK_IMAGES}/christian-03.PNG`,
     ],
     captions: [
-      `Based on the prompt: "What year is it?"`,
-      `Based on the prompt: "We need a plan!" "I have a plan."`,
+      `The Prompt: "What year is it?"`,
+      `Prompt: "We need a plan!" "I have a plan."`,
       `Based on the prompt: "Do you think it's dead?"`,
     ],
   },

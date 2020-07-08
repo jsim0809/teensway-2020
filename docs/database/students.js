@@ -29,8 +29,8 @@ module.exports = [
       `${WORK_IMAGES}/ryan-03.jpg`,
     ],
     captions: [
-      `Based on the prompt: "It's a syzygy!"`,
-      `Based on the prompt: "Well, this is awkward."`,
+      `Based on the prompts: "What year is it?" and "It's a syzygy!"`,
+      `Based on the prompts: "Quick! Where did you hide it?" and "Well, this is awkward."`,
       `Based on a script from Kiku Hughes.`,
     ],
   },

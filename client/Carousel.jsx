@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 function Carousel() {
   const [imgOrder, setImgOrder] = useState([0, 1]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const carouselImages = ['./assets/Ocean-01.jpg', './assets/Ocean-01b.jpg', './assets/Ocean-02.jpg'];
+  const carouselImages = ['./assets/Ocean-01b.jpg', './assets/Ocean-02.jpg'];
 
   useEffect(() => {
     // Initialize a random list of students' ids using inside-out Fisher-Yates shuffle

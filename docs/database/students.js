@@ -13,9 +13,9 @@ module.exports = [
       `${WORK_IMAGES}/christian-03.PNG`,
     ],
     captions: [
-      `The Prompt: "What year is it?"`,
+      `Prompt: "What year is it?"`,
       `Prompt: "We need a plan!" "I have a plan."`,
-      `Based on the prompt: "Do you think it's dead?"`,
+      `Prompt: "Do you think it's dead?"`,
     ],
   },
   {
@@ -29,9 +29,9 @@ module.exports = [
       `${WORK_IMAGES}/ryan-03.jpg`,
     ],
     captions: [
-      `Based on the prompts: "What year is it?" and "It's a syzygy!"`,
-      `Based on the prompts: "Quick! Where did you hide it?" and "Well, this is awkward."`,
-      `Based on a script from Kiku Hughes.`,
+      `Prompts: "What year is it?" and "It's a syzygy!"`,
+      `Prompts: "Quick! Where did you hide it?" and "Well, this is awkward."`,
+      `Prompt: Script exercise from Kiku Hughes`,
     ],
   },
   {
@@ -92,9 +92,9 @@ module.exports = [
     captions: [
       ,
       ,
-      `Based on the prompt: "What year is it?"`,
+      `Prompt: "What year is it?"`,
       ,
-      `Based on the prompt: "Well, this is awkward."`,
+      `Prompt: "Well, this is awkward."`,
     ],
   },
   {
@@ -137,9 +137,9 @@ module.exports = [
       ,
       ,
       ,
-      `Based on the prompt: "Quick! Where did you hide it?"`,
+      `Prompt: "Quick! Where did you hide it?"`,
       ,
-      `Based on the prompt: "It's a syzygy!"`,
+      `Prompt: "It's a syzygy!"`,
     ],
   },
   {
@@ -174,7 +174,7 @@ module.exports = [
       `${WORK_IMAGES}/violet-01.PNG`,
     ],
     captions: [
-      `Based on the prompt: "Well, this is awkward."`,
+      `Prompt: "Well, this is awkward."`,
     ],
   },
   {
@@ -188,7 +188,7 @@ module.exports = [
     ],
     captions: [
       ,
-      `Based on the prompt: "It's a syzygy!"`,
+      `Prompt: "It's a syzygy!"`,
     ],
   }
 ];

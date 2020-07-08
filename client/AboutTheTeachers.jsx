@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import teachers from '../docs/database/teachers.js';
 
 function AboutTheTeachers() {
-  const rubyLink = <div><br /><p><b>View Ruby's instructional comics, created during the workshop, <Link to={`/ruby`}><u>here</u></Link>.</b></p></div>
+  const rubyLink = <div><br /><p><b><Link to={`/ruby`}><u>View Ruby's instructional comics here</u></Link></b></p></div>
   return (
     <section className="about-the-teachers">
       {teachers.map((teacher, index) => (

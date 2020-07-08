@@ -340,6 +340,11 @@ i.fa-external-link-alt {
   cursor: zoom-in;
 }
 
+.comic-caption {
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
 .comic-dot-bar {
   padding: 5px 0 40px 0;
   font-size: 1rem;

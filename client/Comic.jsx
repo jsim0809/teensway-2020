@@ -10,6 +10,7 @@ function Comic() {
   const [displayLightbox, setLightbox] = useState(false);
   const { student } = useParams();
   const currentComicUrl = students[student].comicPages[currentPage];
+  const currentCaption = students[student].captions[currentPage];
 
   const handleZeroClick = () => {
     setCurrentPage(0);
@@ -59,6 +60,7 @@ function Comic() {
           <span onClick={handleMaxClick} className="comic-max-arrow"><i className="fas fa-angle-double-right"></i></span>
         </div>
         <img className="comic" src={currentComicUrl} alt="" onClick={handleLightboxClick} />
+        { currentCaption ? <div className="comic-caption">{currentCaption}</div> : null }
         <div className="comic-dot-bar">
           {students[student].comicPages.map((page, index) => {
             if (index === currentPage) {

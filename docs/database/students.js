@@ -12,6 +12,11 @@ module.exports = [
       `${WORK_IMAGES}/christian-02.PNG`,
       `${WORK_IMAGES}/christian-03.PNG`,
     ],
+    captions: [
+      `Based on the prompt: "What year is it?"`,
+      `Based on the prompt: "We need a plan!" "I have a plan."`,
+      `Based on the prompt: "Do you think it's dead?"`,
+    ],
   },
   {
     id: 1,
@@ -23,6 +28,11 @@ module.exports = [
       `${WORK_IMAGES}/ryan-02.PNG`,
       `${WORK_IMAGES}/ryan-03.jpg`,
     ],
+    captions: [
+      `Based on the prompt: "It's a syzygy!"`,
+      `Based on the prompt: "Well, this is awkward."`,
+      `Based on a script from Kiku Hughes.`,
+    ],
   },
   {
     id: 2,
@@ -33,6 +43,8 @@ module.exports = [
       `${WORK_IMAGES}/kaz-01.jpg`,
       `${WORK_IMAGES}/kaz-02.jpg`,
       `${WORK_IMAGES}/kaz-03.jpg`,
+    ],
+    captions: [
     ],
   },
   {
@@ -51,6 +63,8 @@ module.exports = [
       `${WORK_IMAGES}/nadjia-08.jpg`,
       `${WORK_IMAGES}/nadjia-09.jpg`,
     ],
+    captions: [
+    ],
   },
   {
     id: 4,
@@ -59,6 +73,8 @@ module.exports = [
     bio: `Naomi is a thirteen-year-old girl who lives in Seattle, Washington, with her family. She enjoys writing and drawing comics. It's her dream job to be a graphic novel artist and writer.`,
     comicPages: [
       `${WORK_IMAGES}/naomi-01.jpg`,
+    ],
+    captions: [
     ],
   },
   {
@@ -73,6 +89,13 @@ module.exports = [
       `${WORK_IMAGES}/emma-04.jpg`,
       `${WORK_IMAGES}/emma-05.PNG`,
     ],
+    captions: [
+      ,
+      ,
+      `Based on the prompt: "What year is it?"`,
+      ,
+      `Based on the prompt: "Well, this is awkward."`,
+    ],
   },
   {
     id: 6,
@@ -82,6 +105,8 @@ module.exports = [
     comicPages: [
       `${WORK_IMAGES}/calvin-01.PNG`,
     ],
+    captions: [
+    ],
   },
   {
     id: 7,
@@ -89,6 +114,8 @@ module.exports = [
     avatar: `${AVATARS}/profilepic_Laela.jpg`,
     bio: '',
     comicPages: [],
+    captions: [
+    ],
   },
   {
     id: 8,
@@ -106,6 +133,14 @@ module.exports = [
       `${WORK_IMAGES}/olivia-10.jpg`,
       `${WORK_IMAGES}/olivia-11.jpg`,
     ],
+    captions: [
+      ,
+      ,
+      ,
+      `Based on the prompt: "Quick! Where did you hide it?"`,
+      ,
+      `Based on the prompt: "It's a syzygy!"`,
+    ],
   },
   {
     id: 9,
@@ -114,6 +149,8 @@ module.exports = [
     bio: `Ronan is fifteen years old and has been doing art programs for many years. This is his second year making graphic novels at Teensway.`,
     comicPages: [
       `${WORK_IMAGES}/ronan-01.jpg`,
+    ],
+    captions: [
     ],
   },
   {
@@ -125,6 +162,8 @@ module.exports = [
       `${WORK_IMAGES}/calleigh-01.jpg`,
       `${WORK_IMAGES}/calleigh-02.jpg`,
     ],
+    captions: [
+    ],
   },
   {
     id: 11,
@@ -133,6 +172,9 @@ module.exports = [
     bio: `Violet is fourteen years old. She likes to listen to music and draw faces.`,
     comicPages: [
       `${WORK_IMAGES}/violet-01.PNG`,
+    ],
+    captions: [
+      `Based on the prompt: "Well, this is awkward."`,
     ],
   },
   {
@@ -143,6 +185,10 @@ module.exports = [
     comicPages: [
       `${WORK_IMAGES}/marigold-01.jpg`,
       `${WORK_IMAGES}/marigold-02.PNG`,
+    ],
+    captions: [
+      ,
+      `Based on the prompt: "It's a syzygy!"`,
     ],
   }
 ];

@@ -305,19 +305,19 @@ i.fa-external-link-alt {
 .comic-random {
   cursor: pointer;
   padding: 0 30px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .comic-arrow {
   cursor: pointer;
   padding: 0 12px 9px 12px;
-  font-size: 3.8rem;
+  font-size: 3rem;
 }
 
 .comic-max-arrow {
   cursor: pointer;
   padding: 0 12px 9px 12px;
-  font-size: 3.8rem;
+  font-size: 3rem;
 }
 
 .comic-random:hover {

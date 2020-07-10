@@ -20,6 +20,11 @@ module.exports = [
       `${WORK_IMAGES}/ruby-02.jpg`,
       `${WORK_IMAGES}/ruby-03.PNG`,
     ],
+    captions: [
+      ,
+      ,
+      `(Prompt: "Aaaaaaaghhaaghaah!")`,
+    ],
   },
   {
     id: 2,

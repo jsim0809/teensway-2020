@@ -185,6 +185,7 @@ module.exports = [
     comicPages: [
       `${WORK_IMAGES}/marigold-01.jpg`,
       `${WORK_IMAGES}/marigold-02.PNG`,
+      `${WORK_IMAGES}/marigold-03.jpg`,
     ],
     captions: [
       ,
